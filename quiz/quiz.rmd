@@ -7,33 +7,6 @@ output: ioslides_presentation
 
 ## Frage
 
-Wieviel Gramm hat ein Kilogramm?
-
-## Antwort
-
-1000 g = 1 kg
-
-
-## Frage
-
-Ist 13 eine Primzahl?
-
-## Antwort
-
-Ja, 13 ist nur durch 1 oder durch sich selbst teilbar.
-
-
-## Frage
-
-Wie viele Tage hat ein Jahr, das kein Schaltjahr ist?
-
-## Antwort
-
-365 Tage
-
-
-## Frage
-
 Es ist 11:45 Uhr. Wie spät ist es in einer halben Stunde?
 
 ## Antwort
@@ -43,29 +16,11 @@ Es ist 11:45 Uhr. Wie spät ist es in einer halben Stunde?
 
 ## Frage
 
-Ich bezahle 3,85 EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?
+Was ist das Doppelte von 17?
 
 ## Antwort
 
-1,15 EUR = 5,00 EUR - 3,85 EUR
-
-
-## Frage
-
-Wie groß ist die Summe der Winkel in einem Viereck?
-
-## Antwort
-
-360 Grad
-
-
-## Frage
-
-Wieviel Millimeter hat ein Meter?
-
-## Antwort
-
-1000 mm = 1 Meter
+34 = 2 * 17
 
 
 ## Frage
@@ -75,177 +30,6 @@ Mit welchen Großbuchstaben wird die Zahl 12 als Römische Zahl geschrieben?
 ## Antwort
 
 XII
-
-
-## Frage
-
-Was ist die Hälfte von 850?
-
-## Antwort
-
-425
-
-
-## Frage
-
-Wie nennt man einen Winkel, der genau 180 Grad beträgt?
-
-## Antwort
-
-gestreckter Winkel
-
-
-## Frage
-
-Welche Länge hat eine Stadionrunde im Olympiastadion?
-
-## Antwort
-
-400 m
-
-
-## Frage
-
-Ist jedes Quadrat ein Rechteck?
-
-## Antwort
-
-Ja, ein Quadrat ist ein spezielles Rechteck
-
-
-## Frage
-
-Welcher Buchstabe hat bei den Römischen Zahlen den Wert Hundert?
-
-## Antwort
-
-C (franz.: cent = 100)
-
-
-## Frage
-
-Welche Zahl verbirgt sich hinter den Römischen Ziffern CL?
-
-## Antwort
-
-150
-
-
-## Frage
-
-Welches Format (DIN A ?) hat ein DIN A5-Blatt, das ich in der Mitte falte?
-
-## Antwort
-
-DIN A6
-
-
-## Frage
-
-Was ist das Ergebnis von 3 + 5 * 4?
-
-## Antwort
-
-23 = 3 + 20
-
-
-## Frage
-
-Welcher Buchstabe wird bei den Römischen Zahlen für den Wert 5 verwendet?
-
-## Antwort
-
-X (merke: zweimal V = 5 übereinander)
-
-
-## Frage
-
-Welcher Buchstabe wird bei den Römischen Zahlen für den Wert Tausend verwendet?
-
-## Antwort
-
-M (franz.: mille = 1000)
-
-
-## Frage
-
-Welches Format (DIN A ?) hat ein DIN A4-Blatt, das ich in der Mitte falte?
-
-## Antwort
-
-DIN A5
-
-
-## Frage
-
-Was ist die Wurzel aus 81?
-
-## Antwort
-
-9, weil 9 * 9 = 81
-
-
-## Frage
-
-Welcher Buchstabe wird bei den Römischen Zahlen für den Wert Zehn verwendet?
-
-## Antwort
-
-X (merke: zweimal V = 5 übereinander)
-
-
-## Frage
-
-Wenn heute Freitag ist, welcher Wochentag war vorgestern?
-
-## Antwort
-
-Mittwoch
-
-
-## Frage
-
-Ist 33 eine Primzahl?
-
-## Antwort
-
-Nein, 33 ist durch 3 und 11 teilbar.
-
-
-## Frage
-
-Wie heißt ein Winkel, der genau 90 Grad beträgt?
-
-## Antwort
-
-rechter Winkel
-
-
-## Frage
-
-Wie heißt ein Winkel, der genau 360 Grad beträgt?
-
-## Antwort
-
-Vollwinkel
-
-
-## Frage
-
-Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmesser des Kreises?
-
-## Antwort
-
-2 Meter, das Doppelte des Radius
-
-
-## Frage
-
-Wie viele Tage hat ein Schaltjahr?
-
-## Antwort
-
-366 Tage
 
 
 ## Frage
@@ -268,11 +52,227 @@ Wieviel Grad hat ein gestreckter Winkel?
 
 ## Frage
 
-Wieviel Milliliter hat ein Liter?
+Wieviel Gramm hat ein Kilogramm?
 
 ## Antwort
 
-1000 ml = 1 Liter
+1000 g = 1 kg
+
+
+## Frage
+
+Wie viele Tage hat ein Jahr, das kein Schaltjahr ist?
+
+## Antwort
+
+365 Tage
+
+
+## Frage
+
+Wenn heute Freitag ist, welcher Wochentag war vorgestern?
+
+## Antwort
+
+Mittwoch
+
+
+## Frage
+
+Wieviel Grad hat ein Vollwinkel?
+
+## Antwort
+
+360 Grad
+
+
+## Frage
+
+Wie heißt ein Winkel, der genau 90 Grad beträgt?
+
+## Antwort
+
+rechter Winkel
+
+
+## Frage
+
+Ist jedes Quadrat ein Rechteck?
+
+## Antwort
+
+Ja, ein Quadrat ist ein spezielles Rechteck
+
+
+## Frage
+
+Welches Format (DIN A ?) hat ein DIN A5-Blatt, das ich in der Mitte falte?
+
+## Antwort
+
+DIN A6
+
+
+## Frage
+
+Ist jedes Rechteck ein Quadrat?
+
+## Antwort
+
+Nein
+
+
+## Frage
+
+Wie viele Tage hat ein Schaltjahr?
+
+## Antwort
+
+366 Tage
+
+
+## Frage
+
+Wieviel Millimeter hat ein Meter?
+
+## Antwort
+
+1000 mm = 1 Meter
+
+
+## Frage
+
+Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmesser des Kreises?
+
+## Antwort
+
+2 Meter, das Doppelte des Radius
+
+
+## Frage
+
+Wie groß ist die Summe der Winkel in einem Dreieck?
+
+## Antwort
+
+180 Grad
+
+
+## Frage
+
+Was ist die Quersumme von 234?
+
+## Antwort
+
+9
+
+
+## Frage
+
+Welches Format (DIN A ?) hat ein DIN A4-Blatt, das ich in der Mitte falte?
+
+## Antwort
+
+DIN A5
+
+
+## Frage
+
+Wenn heute Montag ist, welcher Tag ist übermorgen?
+
+## Antwort
+
+Mittwoch
+
+
+## Frage
+
+Was ist das Ergebnis von 3 * 5 + 4?
+
+## Antwort
+
+19 = 15 + 4
+
+
+## Frage
+
+Ist 13 eine Primzahl?
+
+## Antwort
+
+Ja, 13 ist nur durch 1 oder durch sich selbst teilbar.
+
+
+## Frage
+
+Wie groß ist die Summe der Winkel in einem Viereck?
+
+## Antwort
+
+360 Grad
+
+
+## Frage
+
+Wie heißt ein Winkel, der genau 360 Grad beträgt?
+
+## Antwort
+
+Vollwinkel
+
+
+## Frage
+
+Ist 33 eine Primzahl?
+
+## Antwort
+
+Nein, 33 ist durch 3 und 11 teilbar.
+
+
+## Frage
+
+Welche Zahl verbirgt sich hinter den Römischen Ziffern CL?
+
+## Antwort
+
+150
+
+
+## Frage
+
+Was ist die Wurzel aus 81?
+
+## Antwort
+
+9, weil 9 * 9 = 81
+
+
+## Frage
+
+Welcher Buchstabe hat bei den Römischen Zahlen den Wert 100?
+
+## Antwort
+
+C (franz.: cent = 100)
+
+
+## Frage
+
+Welcher Buchstabe wird bei den Römischen Zahlen für den Wert Tausend verwendet?
+
+## Antwort
+
+M (franz.: mille = 1000)
+
+
+## Frage
+
+Was ist das Ergebnis von 3 + 5 * 4?
+
+## Antwort
+
+23 = 3 + 20
 
 
 ## Frage
@@ -295,63 +295,63 @@ spitzer Winkel
 
 ## Frage
 
-Wie groß ist die Summe der Winkel in einem Dreieck?
+Welcher Buchstabe wird bei den Römischen Zahlen für den Wert 10 verwendet?
 
 ## Antwort
 
-180 Grad
+X (merke: zweimal V = 5 übereinander)
 
 
 ## Frage
 
-Wieviel Grad hat ein Vollwinkel?
+Was ist die Hälfte von 850?
 
 ## Antwort
 
-360 Grad
+425
 
 
 ## Frage
 
-Wenn heute Montag ist, welcher Tag ist übermorgen?
+Wieviel Milliliter hat ein Liter?
 
 ## Antwort
 
-Mittwoch
+1000 ml = 1 Liter
 
 
 ## Frage
 
-Ist jedes Rechteck ein Quadrat?
+Wie heißt ein Winkel, der genau 180 Grad beträgt?
 
 ## Antwort
 
-Nein
+gestreckter Winkel
 
 
 ## Frage
 
-Was ist das Doppelte von 17?
+Ich bezahle 3,85 EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?
 
 ## Antwort
 
-34 = 2 * 17
+1,15 EUR = 5,00 EUR - 3,85 EUR
 
 
 ## Frage
 
-Was ist das Ergebnis von 3 * 5 + 4?
+Welche Länge hat eine Stadionrunde im Olympiastadion?
 
 ## Antwort
 
-19 = 15 + 4
+400 m
 
 
 ## Frage
 
-Was ist die Quersumme von 234?
+Welcher Buchstabe wird bei den Römischen Zahlen für den Wert 5 verwendet?
 
 ## Antwort
 
-9
+X (merke: zweimal V = 5 übereinander)
 

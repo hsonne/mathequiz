@@ -72,6 +72,8 @@ create_isoslides_markdown <- function(records) {
 }
 
 {
+  set.seed(123)
+  
   data <- read.table(file, sep = ";", header = TRUE)
   data <- handle_placeholders(data)
   data <- randomly_sorted(data)
@@ -83,6 +85,7 @@ create_isoslides_markdown <- function(records) {
   
   rmarkdown::render(
     rmd_file, 
+    output_format = rmarkdown::ioslides_presentation(widescreen = TRUE),
     output_file = "quiz.html", 
     output_dir = output_dir, 
     quiet = TRUE
