@@ -94,5 +94,5 @@ create_isoslides_markdown <- function(records) {
   file.copy(file.path(output_dir, "quiz.html"), "~/index.html")
   
   # Checkout gh-pages, then 
-  #file.copy("~/index.html", ".")
+  #file.copy("~/index.html", ".", overwrite = TRUE)
 }
