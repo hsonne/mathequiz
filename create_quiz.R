@@ -80,7 +80,7 @@ create_quiz_markdown <- function(records) {
 }
 
 {
-  set.seed(123)
+  #set.seed(123)
   
   data <- read.table(file, sep = ";", header = TRUE)
   data <- handle_placeholders(data)
