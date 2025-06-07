@@ -99,18 +99,17 @@ create_quiz_markdown <- function(records) {
     quiet = TRUE
   )
 
-  deploy_dir <- "~/mathequiz"
-  #unlink(deploy_dir, recursive = TRUE)
-  dir.create(deploy_dir, recursive = TRUE, showWarnings = FALSE)
-  dir(deploy_dir, recursive = TRUE)
-  
-  from_rel <- dir(output_dir, recursive = TRUE)
-  from_rel <- grep("\\.rmd$", from_rel, value = TRUE, invert = TRUE)
-  to <- file.path(deploy_dir, from_rel)
-  
-  kwb.utils::createDirectories(unique(dirname(to)), dbg = FALSE)
-  
-  file.copy(file.path(output_dir, from_rel), to, overwrite = TRUE)
+  if (FALSE) {
+    deploy_dir <- "~/mathequiz"
+    #unlink(deploy_dir, recursive = TRUE)
+    dir.create(deploy_dir, recursive = TRUE, showWarnings = FALSE)
+    dir(deploy_dir, recursive = TRUE) 
+    from_rel <- dir(output_dir, recursive = TRUE)
+    from_rel <- grep("\\.rmd$", from_rel, value = TRUE, invert = TRUE)
+    to <- file.path(deploy_dir, from_rel)
+    kwb.utils::createDirectories(unique(dirname(to)), dbg = FALSE) 
+    file.copy(file.path(output_dir, from_rel), to, overwrite = TRUE)
+  }
   
   # Checkout gh-pages, then 
   #file.copy(dir("~/mathequiz", recursive = TRUE, full.names = TRUE), ".", overwrite = TRUE)
