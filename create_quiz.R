@@ -1,3 +1,5 @@
+#install.packages("xaringan")
+
 file <- "data/jeder-gegen-jeden-fragen.txt"
 
 handle_placeholders <- function(data) {
@@ -31,22 +33,28 @@ randomly_sorted <- function(data) {
 
 add_empty <- function(x) c(x, "")
 
-create_slides_markdown <- function(topic, question, answer) {
+create_slides_markdown <- function(question, answer) {
   rep_str <- function(x, n) paste(rep(x, n), collapse = "")
   h <- function(n, x) add_empty(paste(rep_str("#", n), x))
   p <- add_empty
+  slide_class <- add_empty("class: middle,center")
   text_lines <- c(
-    #h(3, "Thema"), 
-    #p(topic),
-    h(2, "Frage"), 
-    p(question),
-    h(2, "Antwort"), 
-    p(answer)
+    # Slide with question
+    slide_class,
+    #h(1, "Frage"), 
+    h(1, question),
+    # Slide with question and answer
+    "---",
+    slide_class,
+    #h(1, "Antwort"),
+    h(1, answer),
+    p("Antwort auf die Frage:"),
+    p(dQuote(question))
   )
   paste(text_lines, collapse = "\n")
 }
 
-rmd_header <- function(title, author, output, date) {
+rmd_header <- function(title, author, date, output) {
   c(
     "---",
     paste("title:", title),
@@ -57,18 +65,18 @@ rmd_header <- function(title, author, output, date) {
   )
 }
 
-create_isoslides_markdown <- function(records) {
+create_quiz_markdown <- function(records) {
   quiz_header <- rmd_header(
     title = "Mathequiz", 
     author = "Hauke Sonnenberg", 
     date = format(Sys.Date(), "%d.%m.%Y"),
-    output = "ioslides_presentation"
+    output = "xaringan::moon_reader" # "ioslides_presentation"
   )
   records <- split(data, seq_len(nrow(data)))
   slides <- lapply(records, function(record) {
-    create_slides_markdown(record$thema, record$frage, record$antwort)
+    create_slides_markdown(record$frage, record$antwort)
   })
-  c(add_empty(quiz_header), paste(slides, collapse = "\n\n"))
+  c(add_empty(quiz_header), paste(slides, collapse = "\n---\n"))
 }
 
 {
@@ -81,17 +89,16 @@ create_isoslides_markdown <- function(records) {
   output_dir <- "./quiz"
   dir.create(output_dir, showWarnings = FALSE)
   rmd_file <- file.path(output_dir, "quiz.rmd")
-  writeLines(create_isoslides_markdown(data), rmd_file)
+  writeLines(create_quiz_markdown(data), rmd_file)
   
   rmarkdown::render(
     rmd_file, 
-    output_format = rmarkdown::ioslides_presentation(widescreen = TRUE),
     output_file = "quiz.html", 
     output_dir = output_dir, 
     quiet = TRUE
   )
   
-  file.copy(file.path(output_dir, "quiz.html"), "~/index.html")
+  file.copy(file.path(output_dir, "quiz.html"), "~/index.html", overwrite = TRUE)
   
   # Checkout gh-pages, then 
   #file.copy("~/index.html", ".", overwrite = TRUE)

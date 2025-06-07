@@ -2,356 +2,551 @@
 title: Mathequiz
 author: Hauke Sonnenberg
 date: 07.06.2025
-output: ioslides_presentation
+output: xaringan::moon_reader
 ---
 
-## Frage
+class: middle,center
 
-Es ist 11:45 Uhr. Wie spät ist es in einer halben Stunde?
+# Es ist 11:45 Uhr. Wie spät ist es in einer halben Stunde?
 
-## Antwort
+---
+class: middle,center
 
-12:15 Uhr
+# 12:15 Uhr
 
+Antwort auf die Frage:
 
-## Frage
+“Es ist 11:45 Uhr. Wie spät ist es in einer halben Stunde?”
 
-Was ist das Doppelte von 17?
+---
+class: middle,center
 
-## Antwort
+# Was ist das Doppelte von 17?
 
-34 = 2 * 17
+---
+class: middle,center
 
+# 34 (= 2 ⋅ 17)
 
-## Frage
+Antwort auf die Frage:
 
-Mit welchen Großbuchstaben wird die Zahl 12 als Römische Zahl geschrieben?
+“Was ist das Doppelte von 17?”
 
-## Antwort
+---
+class: middle,center
 
-XII
+# Mit welchen Großbuchstaben wird die Zahl 12 als Römische Zahl geschrieben?
 
+---
+class: middle,center
 
-## Frage
+# XII
 
-Wieviel Grad hat ein rechter Winkel?
+Antwort auf die Frage:
 
-## Antwort
+“Mit welchen Großbuchstaben wird die Zahl 12 als Römische Zahl geschrieben?”
 
-90 Grad
+---
+class: middle,center
 
+# Wieviel Grad hat ein rechter Winkel?
 
-## Frage
+---
+class: middle,center
 
-Wieviel Grad hat ein gestreckter Winkel?
+# 90 Grad
 
-## Antwort
+Antwort auf die Frage:
 
-180 Grad
+“Wieviel Grad hat ein rechter Winkel?”
 
+---
+class: middle,center
 
-## Frage
+# Wieviel Grad hat ein gestreckter Winkel?
 
-Wieviel Gramm hat ein Kilogramm?
+---
+class: middle,center
 
-## Antwort
+# 180 Grad
 
-1000 g = 1 kg
+Antwort auf die Frage:
 
+“Wieviel Grad hat ein gestreckter Winkel?”
 
-## Frage
+---
+class: middle,center
 
-Wie viele Tage hat ein Jahr, das kein Schaltjahr ist?
+# Wieviel Gramm hat ein Kilogramm?
 
-## Antwort
+---
+class: middle,center
 
-365 Tage
+# 1000 g (= 1 kg)
 
+Antwort auf die Frage:
 
-## Frage
+“Wieviel Gramm hat ein Kilogramm?”
 
-Wenn heute Freitag ist, welcher Wochentag war vorgestern?
+---
+class: middle,center
 
-## Antwort
+# Wie viele Tage hat ein Jahr, das kein Schaltjahr ist?
 
-Mittwoch
+---
+class: middle,center
 
+# 365 Tage
 
-## Frage
+Antwort auf die Frage:
 
-Wieviel Grad hat ein Vollwinkel?
+“Wie viele Tage hat ein Jahr, das kein Schaltjahr ist?”
 
-## Antwort
+---
+class: middle,center
 
-360 Grad
+# Wenn heute Freitag ist, welcher Wochentag war vorgestern?
 
+---
+class: middle,center
 
-## Frage
+# Mittwoch
 
-Wie heißt ein Winkel, der genau 90 Grad beträgt?
+Antwort auf die Frage:
 
-## Antwort
+“Wenn heute Freitag ist, welcher Wochentag war vorgestern?”
 
-rechter Winkel
+---
+class: middle,center
 
+# Wieviel Grad hat ein Vollwinkel?
 
-## Frage
+---
+class: middle,center
 
-Ist jedes Quadrat ein Rechteck?
+# 360 Grad
 
-## Antwort
+Antwort auf die Frage:
 
-Ja, ein Quadrat ist ein spezielles Rechteck
+“Wieviel Grad hat ein Vollwinkel?”
 
+---
+class: middle,center
 
-## Frage
+# Wie heißt ein Winkel, der genau 90 Grad beträgt?
 
-Welches Format (DIN A ?) hat ein DIN A5-Blatt, das ich in der Mitte falte?
+---
+class: middle,center
 
-## Antwort
+# rechter Winkel
 
-DIN A6
+Antwort auf die Frage:
 
+“Wie heißt ein Winkel, der genau 90 Grad beträgt?”
 
-## Frage
+---
+class: middle,center
 
-Ist jedes Rechteck ein Quadrat?
+# Ist jedes Quadrat ein Rechteck?
 
-## Antwort
+---
+class: middle,center
 
-Nein
+# Ja, ein Quadrat ist ein spezielles Rechteck
 
+Antwort auf die Frage:
 
-## Frage
+“Ist jedes Quadrat ein Rechteck?”
 
-Wie viele Tage hat ein Schaltjahr?
+---
+class: middle,center
 
-## Antwort
+# Welches Format (DIN A ?) hat ein DIN A5-Blatt, das ich in der Mitte falte?
 
-366 Tage
+---
+class: middle,center
 
+# DIN A6
 
-## Frage
+Antwort auf die Frage:
 
-Wieviel Millimeter hat ein Meter?
+“Welches Format (DIN A ?) hat ein DIN A5-Blatt, das ich in der Mitte falte?”
 
-## Antwort
+---
+class: middle,center
 
-1000 mm = 1 Meter
+# Ist jedes Rechteck ein Quadrat?
 
+---
+class: middle,center
 
-## Frage
+# Nein
 
-Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmesser des Kreises?
+Antwort auf die Frage:
 
-## Antwort
+“Ist jedes Rechteck ein Quadrat?”
 
-2 Meter, das Doppelte des Radius
+---
+class: middle,center
 
+# Wie viele Tage hat ein Schaltjahr?
 
-## Frage
+---
+class: middle,center
 
-Wie groß ist die Summe der Winkel in einem Dreieck?
+# 366 Tage
 
-## Antwort
+Antwort auf die Frage:
 
-180 Grad
+“Wie viele Tage hat ein Schaltjahr?”
 
+---
+class: middle,center
 
-## Frage
+# Wieviel Millimeter hat ein Meter?
 
-Was ist die Quersumme von 234?
+---
+class: middle,center
 
-## Antwort
+# 1000 mm (= 1 m)
 
-9
+Antwort auf die Frage:
 
+“Wieviel Millimeter hat ein Meter?”
 
-## Frage
+---
+class: middle,center
 
-Welches Format (DIN A ?) hat ein DIN A4-Blatt, das ich in der Mitte falte?
+# Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmesser des Kreises?
 
-## Antwort
+---
+class: middle,center
 
-DIN A5
+# 2 Meter, das Doppelte des Radius
 
+Antwort auf die Frage:
 
-## Frage
+“Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmesser des Kreises?”
 
-Wenn heute Montag ist, welcher Tag ist übermorgen?
+---
+class: middle,center
 
-## Antwort
+# Wie groß ist die Summe der Winkel in einem Dreieck?
 
-Mittwoch
+---
+class: middle,center
 
+# 180 Grad
 
-## Frage
+Antwort auf die Frage:
 
-Was ist das Ergebnis von 3 * 5 + 4?
+“Wie groß ist die Summe der Winkel in einem Dreieck?”
 
-## Antwort
+---
+class: middle,center
 
-19 = 15 + 4
+# Was ist die Quersumme von 234?
 
+---
+class: middle,center
 
-## Frage
+# 9
 
-Ist 13 eine Primzahl?
+Antwort auf die Frage:
 
-## Antwort
+“Was ist die Quersumme von 234?”
 
-Ja, 13 ist nur durch 1 oder durch sich selbst teilbar.
+---
+class: middle,center
 
+# Welches Format (DIN A ?) hat ein DIN A4-Blatt, das ich in der Mitte falte?
 
-## Frage
+---
+class: middle,center
 
-Wie groß ist die Summe der Winkel in einem Viereck?
+# DIN A5
 
-## Antwort
+Antwort auf die Frage:
 
-360 Grad
+“Welches Format (DIN A ?) hat ein DIN A4-Blatt, das ich in der Mitte falte?”
 
+---
+class: middle,center
 
-## Frage
+# Wenn heute Montag ist, welcher Tag ist übermorgen?
 
-Wie heißt ein Winkel, der genau 360 Grad beträgt?
+---
+class: middle,center
 
-## Antwort
+# Mittwoch
 
-Vollwinkel
+Antwort auf die Frage:
 
+“Wenn heute Montag ist, welcher Tag ist übermorgen?”
 
-## Frage
+---
+class: middle,center
 
-Ist 33 eine Primzahl?
+# Was ist das Ergebnis von 3 ⋅ 5 + 4?
 
-## Antwort
+---
+class: middle,center
 
-Nein, 33 ist durch 3 und 11 teilbar.
+# 19 (= 15 + 4)
 
+Antwort auf die Frage:
 
-## Frage
+“Was ist das Ergebnis von 3 ⋅ 5 + 4?”
 
-Welche Zahl verbirgt sich hinter den Römischen Ziffern CL?
+---
+class: middle,center
 
-## Antwort
+# Ist 13 eine Primzahl?
 
-150
+---
+class: middle,center
 
+# Ja, 13 ist nur durch 1 oder durch sich selbst teilbar.
 
-## Frage
+Antwort auf die Frage:
 
-Was ist die Wurzel aus 81?
+“Ist 13 eine Primzahl?”
 
-## Antwort
+---
+class: middle,center
 
-9, weil 9 * 9 = 81
+# Wie groß ist die Summe der Winkel in einem Viereck?
 
+---
+class: middle,center
 
-## Frage
+# 360 Grad
 
-Welcher Buchstabe hat bei den Römischen Zahlen den Wert 100?
+Antwort auf die Frage:
 
-## Antwort
+“Wie groß ist die Summe der Winkel in einem Viereck?”
 
-C (franz.: cent = 100)
+---
+class: middle,center
 
+# Wie heißt ein Winkel, der genau 360 Grad beträgt?
 
-## Frage
+---
+class: middle,center
 
-Welcher Buchstabe wird bei den Römischen Zahlen für den Wert Tausend verwendet?
+# Vollwinkel
 
-## Antwort
+Antwort auf die Frage:
 
-M (franz.: mille = 1000)
+“Wie heißt ein Winkel, der genau 360 Grad beträgt?”
 
+---
+class: middle,center
 
-## Frage
+# Ist 33 eine Primzahl?
 
-Was ist das Ergebnis von 3 + 5 * 4?
+---
+class: middle,center
 
-## Antwort
+# Nein, 33 ist durch 3 und 11 teilbar.
 
-23 = 3 + 20
+Antwort auf die Frage:
 
+“Ist 33 eine Primzahl?”
 
-## Frage
+---
+class: middle,center
 
-Was ist das Doppelte von 125?
+# Welche Zahl verbirgt sich hinter den Römischen Ziffern CL?
 
-## Antwort
+---
+class: middle,center
 
-250
+# 150
 
+Antwort auf die Frage:
 
-## Frage
+“Welche Zahl verbirgt sich hinter den Römischen Ziffern CL?”
 
-Wie nennt man einen Winkel, der zwischen 0 und 90 Grad beträgt?
+---
+class: middle,center
 
-## Antwort
+# Was ist die Wurzel aus 81?
 
-spitzer Winkel
+---
+class: middle,center
 
+# 9 (weil 9 ⋅ 9 = 81)
 
-## Frage
+Antwort auf die Frage:
 
-Welcher Buchstabe wird bei den Römischen Zahlen für den Wert 10 verwendet?
+“Was ist die Wurzel aus 81?”
 
-## Antwort
+---
+class: middle,center
 
-X (merke: zweimal V = 5 übereinander)
+# Welcher Buchstabe hat bei den Römischen Zahlen den Wert 100?
 
+---
+class: middle,center
 
-## Frage
+# C (franz.: cent = 100)
 
-Was ist die Hälfte von 850?
+Antwort auf die Frage:
 
-## Antwort
+“Welcher Buchstabe hat bei den Römischen Zahlen den Wert 100?”
 
-425
+---
+class: middle,center
 
+# Welcher Buchstabe wird bei den Römischen Zahlen für den Wert Tausend verwendet?
 
-## Frage
+---
+class: middle,center
 
-Wieviel Milliliter hat ein Liter?
+# M (franz.: mille = 1000)
 
-## Antwort
+Antwort auf die Frage:
 
-1000 ml = 1 Liter
+“Welcher Buchstabe wird bei den Römischen Zahlen für den Wert Tausend verwendet?”
 
+---
+class: middle,center
 
-## Frage
+# Was ist das Ergebnis von 3 + 5 ⋅ 4?
 
-Wie heißt ein Winkel, der genau 180 Grad beträgt?
+---
+class: middle,center
 
-## Antwort
+# 23 (= 3 + 20)
 
-gestreckter Winkel
+Antwort auf die Frage:
 
+“Was ist das Ergebnis von 3 + 5 ⋅ 4?”
 
-## Frage
+---
+class: middle,center
 
-Ich bezahle 3,85 EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?
+# Was ist das Doppelte von 125?
 
-## Antwort
+---
+class: middle,center
 
-1,15 EUR = 5,00 EUR - 3,85 EUR
+# 250
 
+Antwort auf die Frage:
 
-## Frage
+“Was ist das Doppelte von 125?”
 
-Welche Länge hat eine Stadionrunde im Olympiastadion?
+---
+class: middle,center
 
-## Antwort
+# Wie nennt man einen Winkel, der zwischen 0 und 90 Grad beträgt?
 
-400 m
+---
+class: middle,center
 
+# spitzer Winkel
 
-## Frage
+Antwort auf die Frage:
 
-Welcher Buchstabe wird bei den Römischen Zahlen für den Wert 5 verwendet?
+“Wie nennt man einen Winkel, der zwischen 0 und 90 Grad beträgt?”
 
-## Antwort
+---
+class: middle,center
 
-X (merke: zweimal V = 5 übereinander)
+# Welcher Buchstabe wird bei den Römischen Zahlen für den Wert 10 verwendet?
+
+---
+class: middle,center
+
+# X (merke: zweimal V = 5 übereinander)
+
+Antwort auf die Frage:
+
+“Welcher Buchstabe wird bei den Römischen Zahlen für den Wert 10 verwendet?”
+
+---
+class: middle,center
+
+# Was ist die Hälfte von 850?
+
+---
+class: middle,center
+
+# 425
+
+Antwort auf die Frage:
+
+“Was ist die Hälfte von 850?”
+
+---
+class: middle,center
+
+# Wieviel Milliliter hat ein Liter?
+
+---
+class: middle,center
+
+# 1000 ml (= 1 l)
+
+Antwort auf die Frage:
+
+“Wieviel Milliliter hat ein Liter?”
+
+---
+class: middle,center
+
+# Wie heißt ein Winkel, der genau 180 Grad beträgt?
+
+---
+class: middle,center
+
+# gestreckter Winkel
+
+Antwort auf die Frage:
+
+“Wie heißt ein Winkel, der genau 180 Grad beträgt?”
+
+---
+class: middle,center
+
+# Ich bezahle 3,85 EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?
+
+---
+class: middle,center
+
+# 1,15 EUR (= 5,00 EUR - 3,85 EUR)
+
+Antwort auf die Frage:
+
+“Ich bezahle 3,85 EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?”
+
+---
+class: middle,center
+
+# Welche Länge hat eine Stadionrunde im Olympiastadion?
+
+---
+class: middle,center
+
+# 400 m
+
+Antwort auf die Frage:
+
+“Welche Länge hat eine Stadionrunde im Olympiastadion?”
+
+---
+class: middle,center
+
+# Welcher Buchstabe wird bei den Römischen Zahlen für den Wert 5 verwendet?
+
+---
+class: middle,center
+
+# X (merke: zweimal V = 5 übereinander)
+
+Antwort auf die Frage:
+
+“Welcher Buchstabe wird bei den Römischen Zahlen für den Wert 5 verwendet?”
 
