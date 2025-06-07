@@ -7,51 +7,6 @@ output: ioslides_presentation
 
 ## Frage
 
-Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmesser des Kreises?
-
-## Antwort
-
-2 Meter, das Doppelte des Radius
-
-
-## Frage
-
-Welcher Buchstabe wird bei den Römischen Zahlen für den Wert 1000 verwendet?
-
-## Antwort
-
-M (franz.: mille = 1000)
-
-
-## Frage
-
-Welcher Buchstabe wird bei den Römischen Zahlen für den Wert Fünf verwendet?
-
-## Antwort
-
-X (merke: zweimal V = 5 übereinander)
-
-
-## Frage
-
-Welche Zahl verbirgt sich hinter den Römischen Ziffern CL?
-
-## Antwort
-
-150
-
-
-## Frage
-
-Wie nennt man einen Winkel, der genau 360 Grad beträgt?
-
-## Antwort
-
-Vollwinkel
-
-
-## Frage
-
 Wieviel Gramm hat ein Kilogramm?
 
 ## Antwort
@@ -61,47 +16,29 @@ Wieviel Gramm hat ein Kilogramm?
 
 ## Frage
 
-Wieviel Grad hat ein gestreckter Winkel?
+Ist 13 eine Primzahl?
 
 ## Antwort
 
-180 Grad
+Ja, 13 ist nur durch 1 oder durch sich selbst teilbar.
 
 
 ## Frage
 
-Wieviel Millimeter hat ein Meter?
+Wie viele Tage hat ein Jahr, das kein Schaltjahr ist?
 
 ## Antwort
 
-1000 mm = 1 Meter
+365 Tage
 
 
 ## Frage
 
-Was ist das Ergebnis von 3 + 5 * 4?
+Es ist 11:45 Uhr. Wie spät ist es in einer halben Stunde?
 
 ## Antwort
 
-23 = 3 + 20
-
-
-## Frage
-
-Ist jedes Quadrat ein Rechteck?
-
-## Antwort
-
-Ja, ein Quadrat ist ein spezielles Rechteck
-
-
-## Frage
-
-Wie nennt man einen Winkel, der genau 180 Grad beträgt?
-
-## Antwort
-
-gestreckter Winkel
+12:15 Uhr
 
 
 ## Frage
@@ -115,43 +52,7 @@ Ich bezahle 3,85 EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?
 
 ## Frage
 
-Ist 33 eine Primzahl?
-
-## Antwort
-
-Nein, 33 ist durch 3 und 11 teilbar.
-
-
-## Frage
-
-Mit welchen Großbuchstaben wird die Zahl zwölf als Römische Zahl geschrieben?
-
-## Antwort
-
-XII
-
-
-## Frage
-
-Wie viele Tage hat ein Schaltjahr?
-
-## Antwort
-
-366 Tage
-
-
-## Frage
-
-Wie nennt man einen Winkel, der zwischen 0 und 90 Grad beträgt?
-
-## Antwort
-
-spitzer Winkel
-
-
-## Frage
-
-Wieviel Grad hat ein Vollwinkel?
+Wie groß ist die Summe der Winkel in einem Viereck?
 
 ## Antwort
 
@@ -160,47 +61,110 @@ Wieviel Grad hat ein Vollwinkel?
 
 ## Frage
 
-Wenn heute Freitag ist, welcher Wochentag war vorgestern?
+Wieviel Millimeter hat ein Meter?
 
 ## Antwort
 
-Mittwoch
+1000 mm = 1 Meter
 
 
 ## Frage
 
-Was ist das Ergebnis von 3 * 5 + 4?
+Mit welchen Großbuchstaben wird die Zahl 12 als Römische Zahl geschrieben?
 
 ## Antwort
 
-19 = 15 + 4
+XII
 
 
 ## Frage
 
-Wieviel Grad hat ein rechter Winkel?
+Was ist die Hälfte von 850?
 
 ## Antwort
 
-90 Grad
+425
 
 
 ## Frage
 
-Was ist das Doppelte von 125?
+Wie nennt man einen Winkel, der genau 180 Grad beträgt?
 
 ## Antwort
 
-250
+gestreckter Winkel
 
 
 ## Frage
 
-Wie groß ist die Summe der Winkel in einem Dreieck?
+Welche Länge hat eine Stadionrunde im Olympiastadion?
 
 ## Antwort
 
-180 Grad
+400 m
+
+
+## Frage
+
+Ist jedes Quadrat ein Rechteck?
+
+## Antwort
+
+Ja, ein Quadrat ist ein spezielles Rechteck
+
+
+## Frage
+
+Welcher Buchstabe hat bei den Römischen Zahlen den Wert Hundert?
+
+## Antwort
+
+C (franz.: cent = 100)
+
+
+## Frage
+
+Welche Zahl verbirgt sich hinter den Römischen Ziffern CL?
+
+## Antwort
+
+150
+
+
+## Frage
+
+Welches Format (DIN A ?) hat ein DIN A5-Blatt, das ich in der Mitte falte?
+
+## Antwort
+
+DIN A6
+
+
+## Frage
+
+Was ist das Ergebnis von 3 + 5 * 4?
+
+## Antwort
+
+23 = 3 + 20
+
+
+## Frage
+
+Welcher Buchstabe wird bei den Römischen Zahlen für den Wert 5 verwendet?
+
+## Antwort
+
+X (merke: zweimal V = 5 übereinander)
+
+
+## Frage
+
+Welcher Buchstabe wird bei den Römischen Zahlen für den Wert Tausend verwendet?
+
+## Antwort
+
+M (franz.: mille = 1000)
 
 
 ## Frage
@@ -232,79 +196,25 @@ X (merke: zweimal V = 5 übereinander)
 
 ## Frage
 
-Es ist 11:45 Uhr. Wie spät ist es in einer halben Stunde?
+Wenn heute Freitag ist, welcher Wochentag war vorgestern?
 
 ## Antwort
 
-12:15 Uhr
+Mittwoch
 
 
 ## Frage
 
-Ist jedes Rechteck ein Quadrat?
+Ist 33 eine Primzahl?
 
 ## Antwort
 
-Nein
+Nein, 33 ist durch 3 und 11 teilbar.
 
 
 ## Frage
 
-Was ist die Quersumme von 234?
-
-## Antwort
-
-9
-
-
-## Frage
-
-Was ist die Hälfte von 850?
-
-## Antwort
-
-425
-
-
-## Frage
-
-Welcher Buchstabe hat bei den Römischen Zahlen den Wert Hundert?
-
-## Antwort
-
-C (franz.: cent = 100)
-
-
-## Frage
-
-Wie groß ist die Summe der Winkel in einem Viereck?
-
-## Antwort
-
-360 Grad
-
-
-## Frage
-
-Wie lang ist eine Runde auf der Innenlaufbahn im Olympiastadion?
-
-## Antwort
-
-400 m
-
-
-## Frage
-
-Wie viele Tage hat ein Jahr, das kein Schaltjahr ist?
-
-## Antwort
-
-365 Tage
-
-
-## Frage
-
-Wie nennt man einen Winkel, der genau 90 Grad beträgt?
+Wie heißt ein Winkel, der genau 90 Grad beträgt?
 
 ## Antwort
 
@@ -313,29 +223,92 @@ rechter Winkel
 
 ## Frage
 
-Welches Format (DIN A ?) hat ein DIN A5-Blatt, das ich in der Mitte falte?
+Wie heißt ein Winkel, der genau 360 Grad beträgt?
 
 ## Antwort
 
-DIN A6
+Vollwinkel
 
 
 ## Frage
 
-Was ist das Doppelte von 17?
+Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmesser des Kreises?
 
 ## Antwort
 
-34 = 2 * 17
+2 Meter, das Doppelte des Radius
 
 
 ## Frage
 
-Ist 13 eine Primzahl?
+Wie viele Tage hat ein Schaltjahr?
 
 ## Antwort
 
-Ja, 13 ist nur durch 1 oder durch sich selbst teilbar.
+366 Tage
+
+
+## Frage
+
+Wieviel Grad hat ein rechter Winkel?
+
+## Antwort
+
+90 Grad
+
+
+## Frage
+
+Wieviel Grad hat ein gestreckter Winkel?
+
+## Antwort
+
+180 Grad
+
+
+## Frage
+
+Wieviel Milliliter hat ein Liter?
+
+## Antwort
+
+1000 ml = 1 Liter
+
+
+## Frage
+
+Was ist das Doppelte von 125?
+
+## Antwort
+
+250
+
+
+## Frage
+
+Wie nennt man einen Winkel, der zwischen 0 und 90 Grad beträgt?
+
+## Antwort
+
+spitzer Winkel
+
+
+## Frage
+
+Wie groß ist die Summe der Winkel in einem Dreieck?
+
+## Antwort
+
+180 Grad
+
+
+## Frage
+
+Wieviel Grad hat ein Vollwinkel?
+
+## Antwort
+
+360 Grad
 
 
 ## Frage
@@ -349,9 +322,36 @@ Mittwoch
 
 ## Frage
 
-Wieviel Milliliter hat ein Liter?
+Ist jedes Rechteck ein Quadrat?
 
 ## Antwort
 
-1000 ml = 1 Liter
+Nein
+
+
+## Frage
+
+Was ist das Doppelte von 17?
+
+## Antwort
+
+34 = 2 * 17
+
+
+## Frage
+
+Was ist das Ergebnis von 3 * 5 + 4?
+
+## Antwort
+
+19 = 15 + 4
+
+
+## Frage
+
+Was ist die Quersumme von 234?
+
+## Antwort
+
+9
 
