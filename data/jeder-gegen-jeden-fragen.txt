@@ -1,0 +1,40 @@
+thema;frage;antwort
+alltag;Wie lang ist eine Runde auf der Innenlaufbahn im Olympiastadion?;400 m
+alltag;Ich bezahle 3,85 EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?;1,15 EUR = 5,00 EUR - 3,85 EUR
+alltag;Welches Format (DIN A ?) hat ein DIN A5-Blatt, das ich in der Mitte falte?;DIN A6
+alltag;Welches Format (DIN A ?) hat ein DIN A4-Blatt, das ich in der Mitte falte?;DIN A5
+einheit;Wieviel Gramm hat ein Kilogramm?;1000 g = 1 kg
+einheit;Wieviel Milliliter hat ein Liter?;1000 ml = 1 Liter
+einheit;Wieviel Millimeter hat ein Meter?;1000 mm = 1 Meter
+geometrie;Ist jedes Rechteck ein Quadrat?;Nein
+geometrie;Ist jedes Quadrat ein Rechteck?;Ja, ein Quadrat ist ein spezielles Rechteck
+geometrie;Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmesser des Kreises?;2 Meter, das Doppelte des Radius
+primzahl;Ist 13 eine Primzahl?;Ja, 13 ist nur durch 1 oder durch sich selbst teilbar.
+primzahl;Ist 33 eine Primzahl?;Nein, 33 ist durch 3 und 11 teilbar.
+rechnen;Was ist die Wurzel aus 81?;9, weil 9 * 9 = 81
+rechnen;Was ist das Doppelte von 17?;34 = 2 * 17
+rechnen;Was ist das Doppelte von 125?;250
+rechnen;Was ist die Hälfte von 850?;425
+rechnen;Was ist das Ergebnis von 3 * 5 + 4?;19 = 15 + 4
+rechnen;Was ist das Ergebnis von 3 + 5 * 4?;23 = 3 + 20
+rechnen;Was ist die Quersumme von 234?;9
+roemisch;Welcher Buchstabe wird bei den Römischen Zahlen für den Wert [[5|Fünf]] verwendet?;X (merke: zweimal V = 5 übereinander)
+roemisch;Welcher Buchstabe wird bei den Römischen Zahlen für den Wert [[10|Zehn]] verwendet?;X (merke: zweimal V = 5 übereinander)
+roemisch;Welcher Buchstabe hat bei den Römischen Zahlen den Wert [[100|Hundert]]?;C (franz.: cent = 100)
+roemisch;Welcher Buchstabe wird bei den Römischen Zahlen für den Wert [[1000|Tausend]] verwendet?;M (franz.: mille = 1000)
+roemisch;Welche Zahl verbirgt sich hinter den Römischen Ziffern CL?;150
+roemisch;Mit welchen Großbuchstaben wird die Zahl [[12|zwölf]] als Römische Zahl geschrieben?;XII
+winkel;Wieviel Grad hat ein rechter Winkel?;90 Grad
+winkel;Wieviel Grad hat ein gestreckter Winkel?;180 Grad
+winkel;Wieviel Grad hat ein Vollwinkel?;360 Grad
+winkel;Wie groß ist die Summe der Winkel in einem Dreieck?;180 Grad
+winkel;Wie groß ist die Summe der Winkel in einem Viereck?;360 Grad
+winkel;Wie nennt man einen Winkel, der zwischen 0 und 90 Grad beträgt?;spitzer Winkel
+winkel;Wie [[nennt man einen|heißt ein]] Winkel, der genau 90 Grad beträgt?;rechter Winkel
+winkel;Wie [[nennt man einen|heißt ein]] Winkel, der genau 180 Grad beträgt?;gestreckter Winkel
+winkel;Wie [[nennt man einen|heißt ein]] Winkel, der genau 360 Grad beträgt?;Vollwinkel
+zeit;Wie viele Tage hat ein Jahr, das kein Schaltjahr ist?;365 Tage
+zeit;Wie viele Tage hat ein Schaltjahr?;366 Tage
+zeit;Es ist 11:45 Uhr. Wie spät ist es in einer halben Stunde?;12:15 Uhr
+zeit;Wenn heute Montag ist, welcher Tag ist übermorgen?;Mittwoch
+zeit;Wenn heute Freitag ist, welcher Wochentag war vorgestern?;Mittwoch

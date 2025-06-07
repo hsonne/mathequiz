@@ -1,0 +1,357 @@
+---
+title: Mathequiz
+author: Hauke Sonnenberg
+date: 07.06.2025
+output: ioslides_presentation
+---
+
+## Frage
+
+Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmesser des Kreises?
+
+## Antwort
+
+2 Meter, das Doppelte des Radius
+
+
+## Frage
+
+Welcher Buchstabe wird bei den Römischen Zahlen für den Wert 1000 verwendet?
+
+## Antwort
+
+M (franz.: mille = 1000)
+
+
+## Frage
+
+Welcher Buchstabe wird bei den Römischen Zahlen für den Wert Fünf verwendet?
+
+## Antwort
+
+X (merke: zweimal V = 5 übereinander)
+
+
+## Frage
+
+Welche Zahl verbirgt sich hinter den Römischen Ziffern CL?
+
+## Antwort
+
+150
+
+
+## Frage
+
+Wie nennt man einen Winkel, der genau 360 Grad beträgt?
+
+## Antwort
+
+Vollwinkel
+
+
+## Frage
+
+Wieviel Gramm hat ein Kilogramm?
+
+## Antwort
+
+1000 g = 1 kg
+
+
+## Frage
+
+Wieviel Grad hat ein gestreckter Winkel?
+
+## Antwort
+
+180 Grad
+
+
+## Frage
+
+Wieviel Millimeter hat ein Meter?
+
+## Antwort
+
+1000 mm = 1 Meter
+
+
+## Frage
+
+Was ist das Ergebnis von 3 + 5 * 4?
+
+## Antwort
+
+23 = 3 + 20
+
+
+## Frage
+
+Ist jedes Quadrat ein Rechteck?
+
+## Antwort
+
+Ja, ein Quadrat ist ein spezielles Rechteck
+
+
+## Frage
+
+Wie nennt man einen Winkel, der genau 180 Grad beträgt?
+
+## Antwort
+
+gestreckter Winkel
+
+
+## Frage
+
+Ich bezahle 3,85 EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?
+
+## Antwort
+
+1,15 EUR = 5,00 EUR - 3,85 EUR
+
+
+## Frage
+
+Ist 33 eine Primzahl?
+
+## Antwort
+
+Nein, 33 ist durch 3 und 11 teilbar.
+
+
+## Frage
+
+Mit welchen Großbuchstaben wird die Zahl zwölf als Römische Zahl geschrieben?
+
+## Antwort
+
+XII
+
+
+## Frage
+
+Wie viele Tage hat ein Schaltjahr?
+
+## Antwort
+
+366 Tage
+
+
+## Frage
+
+Wie nennt man einen Winkel, der zwischen 0 und 90 Grad beträgt?
+
+## Antwort
+
+spitzer Winkel
+
+
+## Frage
+
+Wieviel Grad hat ein Vollwinkel?
+
+## Antwort
+
+360 Grad
+
+
+## Frage
+
+Wenn heute Freitag ist, welcher Wochentag war vorgestern?
+
+## Antwort
+
+Mittwoch
+
+
+## Frage
+
+Was ist das Ergebnis von 3 * 5 + 4?
+
+## Antwort
+
+19 = 15 + 4
+
+
+## Frage
+
+Wieviel Grad hat ein rechter Winkel?
+
+## Antwort
+
+90 Grad
+
+
+## Frage
+
+Was ist das Doppelte von 125?
+
+## Antwort
+
+250
+
+
+## Frage
+
+Wie groß ist die Summe der Winkel in einem Dreieck?
+
+## Antwort
+
+180 Grad
+
+
+## Frage
+
+Welches Format (DIN A ?) hat ein DIN A4-Blatt, das ich in der Mitte falte?
+
+## Antwort
+
+DIN A5
+
+
+## Frage
+
+Was ist die Wurzel aus 81?
+
+## Antwort
+
+9, weil 9 * 9 = 81
+
+
+## Frage
+
+Welcher Buchstabe wird bei den Römischen Zahlen für den Wert Zehn verwendet?
+
+## Antwort
+
+X (merke: zweimal V = 5 übereinander)
+
+
+## Frage
+
+Es ist 11:45 Uhr. Wie spät ist es in einer halben Stunde?
+
+## Antwort
+
+12:15 Uhr
+
+
+## Frage
+
+Ist jedes Rechteck ein Quadrat?
+
+## Antwort
+
+Nein
+
+
+## Frage
+
+Was ist die Quersumme von 234?
+
+## Antwort
+
+9
+
+
+## Frage
+
+Was ist die Hälfte von 850?
+
+## Antwort
+
+425
+
+
+## Frage
+
+Welcher Buchstabe hat bei den Römischen Zahlen den Wert Hundert?
+
+## Antwort
+
+C (franz.: cent = 100)
+
+
+## Frage
+
+Wie groß ist die Summe der Winkel in einem Viereck?
+
+## Antwort
+
+360 Grad
+
+
+## Frage
+
+Wie lang ist eine Runde auf der Innenlaufbahn im Olympiastadion?
+
+## Antwort
+
+400 m
+
+
+## Frage
+
+Wie viele Tage hat ein Jahr, das kein Schaltjahr ist?
+
+## Antwort
+
+365 Tage
+
+
+## Frage
+
+Wie nennt man einen Winkel, der genau 90 Grad beträgt?
+
+## Antwort
+
+rechter Winkel
+
+
+## Frage
+
+Welches Format (DIN A ?) hat ein DIN A5-Blatt, das ich in der Mitte falte?
+
+## Antwort
+
+DIN A6
+
+
+## Frage
+
+Was ist das Doppelte von 17?
+
+## Antwort
+
+34 = 2 * 17
+
+
+## Frage
+
+Ist 13 eine Primzahl?
+
+## Antwort
+
+Ja, 13 ist nur durch 1 oder durch sich selbst teilbar.
+
+
+## Frage
+
+Wenn heute Montag ist, welcher Tag ist übermorgen?
+
+## Antwort
+
+Mittwoch
+
+
+## Frage
+
+Wieviel Milliliter hat ein Liter?
+
+## Antwort
+
+1000 ml = 1 Liter
+
