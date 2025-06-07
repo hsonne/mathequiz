@@ -23,7 +23,7 @@ rechnen;Was ist die Hälfte von 850?;425
 rechnen;Was ist das Ergebnis von 3 ⋅ 5 + 4?;19 (= 15 + 4)
 rechnen;Was ist das Ergebnis von 3 + 5 ⋅ 4?;23 (= 3 + 20)
 rechnen;Was ist die Quersumme von 234?;9 (= 2 + 3 + 4)
-roemisch;Welcher Buchstabe wird bei den Römischen Zahlen für den Wert [[5|Fünf]] verwendet?;X (merke: zweimal V = 5 übereinander)
+roemisch;Welcher Buchstabe wird bei den Römischen Zahlen für den Wert [[5|Fünf]] verwendet?;V
 roemisch;Welcher Buchstabe wird bei den Römischen Zahlen für den Wert [[10|Zehn]] verwendet?;X (merke: zweimal V = 5 übereinander)
 roemisch;Welcher Buchstabe hat bei den Römischen Zahlen den Wert [[100|Hundert]]?;C (franz.: cent = 100)
 roemisch;Welcher Buchstabe wird bei den Römischen Zahlen für den Wert [[1000|Tausend]] verwendet?;M (franz.: mille = 1000)
