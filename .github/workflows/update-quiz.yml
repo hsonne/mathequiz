@@ -33,7 +33,7 @@ jobs:
       - name: Create quiz
         run: |
           install.packages('rmarkdown')
-          source('create-quiz.R')
+          source('create_quiz.R')
         shell: Rscript {0}
         
       # Runs a single command using the runners shell
