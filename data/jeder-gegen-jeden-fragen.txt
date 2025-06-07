@@ -1,4 +1,5 @@
 thema;frage;antwort
+allgemein;Neue Frage;Neue Antwort
 alltag;Welche Länge hat eine Stadionrunde im Olympiastadion?;400 m
 alltag;Ich bezahle 3,85 EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?;1,15 EUR (= 5,00 EUR - 3,85 EUR)
 alltag;Welches Format (DIN A ?) hat ein DIN A5-Blatt, das ich in der Mitte falte?;DIN A6
