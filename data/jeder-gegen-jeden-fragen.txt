@@ -1,4 +1,8 @@
 thema;frage;antwort
+allg;Wie lautet der mathematische Begriff für das Plusrechnen (+)?;Addition
+allg;Wie lautet der mathematische Begriff für das Minusrechnen (-)?;Subtraktion
+allg;Wie lautet der mathematische Begriff für das Malnehmen (⋅)?;Multiplikation
+allg;Wie lautet der mathematische Begriff für das Teilen (:)?;Division
 brueche;Wie heißt der Teil eines Bruches, der sich oberhalb des Bruchstriches befindet?;Zähler
 brueche;Wie heißt der Teil eines Bruches, der sich unterhalb des Bruchstriches befindet?;Nenner
 brueche;Was ist der Zähler eines Bruches?;der Teil oberhalb des Bruchstriches
