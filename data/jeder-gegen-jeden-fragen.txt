@@ -1,5 +1,8 @@
 thema;frage;antwort
-allgemein;Neue Frage;Neue Antwort
+brueche;Wie heißt der Teil eines Bruches, der sich oberhalb des Bruchstriches befindet?;Zähler
+brueche;Wie heißt der Teil eines Bruches, der sich unterhalb des Bruchstriches befindet?;Nenner
+brueche;Was ist der Zähler eines Bruches?;der Teil oberhalb des Bruchstriches
+brueche;Was ist der Nenner eines Bruches?;der Teil unterhalb des Bruchstriches
 alltag;Welche Länge hat eine Stadionrunde im Olympiastadion?;400 m
 alltag;Ich bezahle 3,85 EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?;1,15 EUR (= 5,00 EUR - 3,85 EUR)
 alltag;Welches Format (DIN A ?) hat ein DIN A5-Blatt, das ich in der Mitte falte?;DIN A6
