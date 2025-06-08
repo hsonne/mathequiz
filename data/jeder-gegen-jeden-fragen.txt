@@ -1,8 +1,8 @@
 thema;frage;antwort
 alltag;Welche Länge hat eine Stadionrunde im Olympiastadion?;400 m
 alltag;Ich bezahle 3,85 EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?;1,15 EUR (= 5,00 EUR - 3,85 EUR)
-alltag;Welches Format (DIN A ?) hat ein DIN A5-Blatt, das ich in der Mitte falte?;DIN A6
-alltag;Welches Format (DIN A ?) hat ein DIN A4-Blatt, das ich in der Mitte falte?;DIN A5
+alltag;Welches DIN-Format hat ein DIN-A5-Blatt, das ich in der Mitte falte?;DIN A6
+alltag;Welches DIN-Format hat ein DIN-A4-Blatt, das ich in der Mitte falte?;DIN A5
 einheit;Wieviel Gramm hat ein Kilogramm?;1000 g (= 1 kg)
 einheit;Wieviel Milliliter hat ein Liter?;1000 ml (= 1 l)
 einheit;Wieviel Millimeter hat ein Meter?;1000 mm (= 1 m)
@@ -18,8 +18,8 @@ rechnen;Was ist die Hälfte von 850?;425
 rechnen;Was ist das Ergebnis von 3 ⋅ 5 + 4?;19 (= 15 + 4)
 rechnen;Was ist das Ergebnis von 3 + 5 ⋅ 4?;23 (= 3 + 20)
 rechnen;Was ist die Quersumme von 234?;9
-roemisch;Welcher Buchstabe wird bei den Römischen Zahlen für den Wert [[5|Fünf]] verwendet?;X (merke: zweimal V = 5 übereinander)
-roemisch;Welcher Buchstabe wird bei den Römischen Zahlen für den Wert [[10|Zehn]] verwendet?;X (merke: zweimal V = 5 übereinander)
+roemisch;Welcher Buchstabe wird bei den Römischen Zahlen für den Wert [[5|Fünf]] verwendet?;V
+roemisch;Welcher Buchstabe wird bei den Römischen Zahlen für den Wert [[10|Zehn]] verwendet?;X
 roemisch;Welcher Buchstabe hat bei den Römischen Zahlen den Wert [[100|Hundert]]?;C (franz.: cent = 100)
 roemisch;Welcher Buchstabe wird bei den Römischen Zahlen für den Wert [[1000|Tausend]] verwendet?;M (franz.: mille = 1000)
 roemisch;Welche Zahl verbirgt sich hinter den Römischen Ziffern CL?;150
