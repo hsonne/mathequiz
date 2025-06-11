@@ -2,6 +2,10 @@
 
 file <- "data/jeder-gegen-jeden-fragen.txt"
 
+remove_brackets <- function(x) {
+  gsub("\\[+|\\]+", "", x)
+}
+
 handle_placeholders <- function(data) {
   has_option_placeholder <- function(x) {
     grepl("\\[\\[", x)
@@ -12,10 +16,10 @@ handle_placeholders <- function(data) {
     })
   }
   resolve_option_placeholders <- function(x) {
-    token_list <- strsplit(x, "(\\[|\\]){2}")
+    token_list <- split_input(x)
     token_list <- lapply(token_list, function(tokens) {
       is_option <- grepl("\\|", tokens)
-      tokens[is_option] <- select_option(tokens[is_option])
+      tokens[is_option] <- select_option(remove_brackets(tokens[is_option]))
       tokens
     })
     sapply(token_list, paste, collapse = "")
@@ -25,6 +29,12 @@ handle_placeholders <- function(data) {
   questions[has_options] <- resolve_option_placeholders(questions[has_options])
   data$frage <- questions
   data
+}
+
+split_input <- function(x) {
+  p <- "\\[+[^]]*\\]+|`[^`]*`|[^][`]*"
+  matches <- gregexpr(p, x)
+  regmatches(x, matches)
 }
 
 randomly_sorted <- function(data) {
