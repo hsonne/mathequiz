@@ -20,7 +20,7 @@ geometrie;Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmess
 geometrie;Welche geometrische Form hat ein Stoppschild?;Achteck
 primzahl;Ist 13 eine Primzahl?;Ja, 13 ist nur durch 1 oder durch sich selbst teilbar.
 primzahl;Ist 33 eine Primzahl?;Nein, 33 ist durch 3 und 11 teilbar.
-rechnen;Was ist die Wurzel aus 81?;9 (weil 9 ⋅ 9 = 81)
+rechnen;Was ist die Wurzel aus `[9|16|25|36|49|64|81|100]`?;`sqrt(#1)` (weil `sqrt(#1)` ⋅ `sqrt(#1)` = `#1`)
 rechnen;Was ist das Doppelte von 17?;34 (= 2 ⋅ 17)
 rechnen;Was ist das Doppelte von 125?;250
 rechnen;Was ist die Hälfte von 850?;425
