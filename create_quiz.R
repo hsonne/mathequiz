@@ -106,6 +106,11 @@ if (TRUE)
 {
   #set.seed(123)
   
+  # Duplicate rows with n > 1
+  data$n[is.na(data$n)] <- 1L
+  i <- which(data$n > 1L)
+  data <- rbind(data, data[rep(i, data$n[i] - 1L), ])
+
   data <- handle_placeholders(data)
   data <- data[sample(nrow(data)), ]
   
