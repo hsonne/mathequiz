@@ -18,8 +18,8 @@ n;thema;frage;antwort
 ;geometrie;Ist jedes Quadrat ein Rechteck?;Ja, ein Quadrat ist ein spezielles Rechteck
 ;geometrie;Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmesser des Kreises?;2 Meter, das Doppelte des Radius
 ;geometrie;Welche geometrische Form hat ein Stoppschild?;Achteck
-;primzahl;Ist 13 eine Primzahl?;Ja, 13 ist nur durch 1 oder durch sich selbst teilbar.
-;primzahl;Ist 33 eine Primzahl?;Nein, 33 ist durch 3 und 11 teilbar.
+3;primzahl;Ist `sample(c(2,3,5,7,11,13,17,19,23,29,31),1)` eine Primzahl?;Ja, `x[1]` ist nur durch 1 und durch sich selbst teilbar.
+3;primzahl;Ist `sample(setdiff(1:33,c(2,3,5,7,11,13,17,19,23,29,31)),1)` eine Primzahl?;"Nein, denn `x[1]` ist nicht nur durch 1 und durch sich selbst teilbar, sondern auch durch `a<-x[1];b<-seq.int(2,a-1);paste(a[a%%b==0],collapse=', ')`."
 4;rechnen;Was ist die Wurzel aus `sample(c(9,16,25,36,49,64,81,100),1)`?;`sqrt(as.numeric(x[1]))` (weil `sqrt(as.numeric(x[1]))` ⋅ `sqrt(as.numeric(x[1]))` = `x[1]`)
 ;rechnen;Was ist das Doppelte von 17?;34 (= 2 ⋅ 17)
 ;rechnen;Was ist das Doppelte von 125?;250
