@@ -2,46 +2,53 @@
 
 file <- "data/jeder-gegen-jeden-fragen.txt"
 
-remove_brackets <- function(x) {
-  gsub("\\[+|\\]+", "", x)
-}
-
 handle_placeholders <- function(data) {
-  has_option_placeholder <- function(x) {
-    grepl("\\[\\[", x)
+  
+  de_formatted <- function(x, fmt) {
+    gsub("\\.", ",", sprintf(fmt, x))
   }
-  select_option <- function(x) {
-    sapply(strsplit(x, "\\|"), function(options) {
-      sample(options, 1L)    
+  
+  de_to_num <- function(x) {
+    as.numeric(gsub(",", ".", x))
+  }
+
+  is_ticked <- function(x) {
+    startsWith(x, "`")
+  }
+  
+  split_into_tokens <- function(x) {
+    p <- "\\[+[^]]*\\]+|`[^`]*`|[^][`]*"
+    matches <- gregexpr(p, x)
+    regmatches(x, matches)
+  }
+  
+  eval_tokens <- function(tokens) {
+    is_expr <- is_ticked(tokens)
+    values <- sapply(tokens[is_expr], USE.NAMES = FALSE, function(e) {
+      eval(parse(text = gsub("`", "", e)))
     })
+    tokens[is_expr] <- values
+    list(tokens = tokens, indices = which(is_expr))
   }
-  resolve_option_placeholders <- function(x) {
-    token_list <- split_input(x)
-    token_list <- lapply(token_list, function(tokens) {
-      is_option <- grepl("\\|", tokens)
-      tokens[is_option] <- select_option(remove_brackets(tokens[is_option]))
-      tokens
-    })
-    sapply(token_list, paste, collapse = "")
+  
+  question_tokens <- split_into_tokens(data$frage)
+  answer_tokens <- split_into_tokens(data$antwort)
+  
+  indices <- which(sapply(question_tokens, function(x) sum(is_ticked(x)) > 0L))
+
+  for (index in indices) {
+    result <- eval_tokens(tokens = question_tokens[[index]])
+    question_tokens[[index]] <- result$tokens
+    x <- result$tokens[result$indices]
+    result <- eval_tokens(answer_tokens[[index]])
+    answer_tokens[[index]] <- result$tokens
   }
-  questions <- data$frage
-  has_options <- has_option_placeholder(questions)
-  questions[has_options] <- resolve_option_placeholders(questions[has_options])
-  data$frage <- questions
+  
+  data$frage <- sapply(question_tokens, paste, collapse = "")
+  data$antwort <- sapply(answer_tokens, paste, collapse = "")
+  
   data
 }
-
-split_input <- function(x) {
-  p <- "\\[+[^]]*\\]+|`[^`]*`|[^][`]*"
-  matches <- gregexpr(p, x)
-  regmatches(x, matches)
-}
-
-randomly_sorted <- function(data) {
-  data[sample(nrow(data)), ]
-}
-
-add_empty <- function(x) c(x, "")
 
 create_slides_markdown <- function(question, answer) {
   rep_str <- function(x, n) paste(rep(x, n), collapse = "")
@@ -62,6 +69,10 @@ create_slides_markdown <- function(question, answer) {
     p(dQuote(question))
   )
   paste(text_lines, collapse = "\n")
+}
+
+add_empty <- function(x) {
+  c(x, "")
 }
 
 rmd_header <- function(title, author, date, output) {
@@ -89,12 +100,14 @@ create_quiz_markdown <- function(records) {
   c(add_empty(quiz_header), paste(slides, collapse = "\n---\n"))
 }
 
+data <- read.table(file, sep = ";", header = TRUE)
+
+if (TRUE)
 {
   #set.seed(123)
   
-  data <- read.table(file, sep = ";", header = TRUE)
   data <- handle_placeholders(data)
-  data <- randomly_sorted(data)
+  data <- data[sample(nrow(data)), ]
   
   output_dir <- "./quiz"
   dir.create(output_dir, showWarnings = FALSE)
