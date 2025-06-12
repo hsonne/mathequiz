@@ -4,6 +4,10 @@ file <- "data/jeder-gegen-jeden-fragen.txt"
 
 handle_placeholders <- function(data) {
   
+  rnd <- function(x) {
+    sample(x, 1L)
+  }
+
   de_formatted <- function(x, fmt) {
     gsub("\\.", ",", sprintf(fmt, x))
   }
