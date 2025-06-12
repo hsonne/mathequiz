@@ -4,8 +4,8 @@ file <- "data/jeder-gegen-jeden-fragen.txt"
 
 handle_placeholders <- function(data) {
   
-  rnd <- function(x) {
-    sample(x, 1L)
+  rnd <- function(...) {
+    sample(do.call(c, list(...)), 1L)
   }
 
   de_formatted <- function(x, fmt) {
