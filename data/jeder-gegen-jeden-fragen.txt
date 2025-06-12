@@ -8,7 +8,7 @@ n;thema;frage;antwort
 ;brueche;Was ist der Zähler eines Bruches?;der Teil oberhalb des Bruchstriches
 ;brueche;Was ist der Nenner eines Bruches?;der Teil unterhalb des Bruchstriches
 ;alltag;Welche Länge hat eine Stadionrunde im Olympiastadion?;400 m
-5;alltag;"Ich bezahle `de_formatted(sample(50:450,1)/100,'%0.2f')` EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?";"`de_formatted(5-de_to_num(x[1]),'%0.2f')` EUR (= 5,00 EUR - `x[1]` EUR)"
+5;alltag;"Ich bezahle `de_formatted(rnd(50:450)/100,'%0.2f')` EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?";"`de_formatted(5-de_to_num(x[1]),'%0.2f')` EUR (= 5,00 EUR - `x[1]` EUR)"
 ;alltag;Welches DIN-Format hat ein DIN-A5-Blatt, das ich in der Mitte falte?;DIN A6
 ;alltag;Welches DIN-Format hat ein DIN A4-Blatt, das ich in der Mitte falte?;DIN A5
 ;einheit;Wieviel Gramm hat ein Kilogramm?;1000 g (= 1 kg)
@@ -18,31 +18,31 @@ n;thema;frage;antwort
 ;geometrie;Ist jedes Quadrat ein Rechteck?;Ja, ein Quadrat ist ein spezielles Rechteck
 ;geometrie;Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmesser des Kreises?;2 Meter, das Doppelte des Radius
 ;geometrie;Welche geometrische Form hat ein Stoppschild?;Achteck
-3;primzahl;Ist `sample(c(2,3,5,7,11,13,17,19,23,29,31),1)` eine Primzahl?;Ja, denn `x[1]` ist nur durch 1 und durch sich selbst teilbar.
-3;primzahl;Ist `sample(setdiff(1:33,c(2,3,5,7,11,13,17,19,23,29,31)),1)` eine Primzahl?;"Nein, denn `x[1]` ist nicht nur durch 1 und durch sich selbst teilbar, sondern auch durch `a<-as.integer(x[1]);b<-seq.int(2,a-1,1);paste(b[a%%b==0],collapse=', ')`."
-4;rechnen;Was ist die Wurzel aus `sample(c(9,16,25,36,49,64,81,100),1)`?;`sqrt(as.numeric(x[1]))` (weil `sqrt(as.numeric(x[1]))` ⋅ `sqrt(as.numeric(x[1]))` = `x[1]`)
-3;rechnen;Was ist das Doppelte von `sample(25:499,1)`?;`2*as.integer(x[1])` (= 2 ⋅ `as.integer(x[1])`)
-3;rechnen;Was ist die Hälfte von `sample(2*12:249,1)`?;`as.integer(x[1])/2` (= `as.integer(x[1])` : 2)
-2;rechnen;Was ist das Ergebnis von `sample(2:9,1)` ⋅ `sample(2:9,1)` + `sample(2:9,1)`?;`as.integer(x[1])* as.integer(x[2])+as.integer(x[3])` (= `as.integer(x[1])*as.integer(x[2])`+`as.integer(x[3])`)
-2;rechnen;Was ist das Ergebnis von `sample(2:9,1)` ⋅ (`sample(2:9,1)` + `sample(2:9,1)`)?;`as.integer(x[1])*(as.integer(x[2]+as.integer(x[3]))` (= `as.integer(x[1])` ⋅ `as.integer(x[2])+as.integer(x[3])`)
-2;rechnen;Was ist das Ergebnis von `sample(2:9,1)` + `sample(2:9,1)` ⋅ `sample(2:9,1)`?;`as.integer(x[1]) + as.integer(x[2])*as.integer(x[3])` (= `as.integer(x[1])` + `as.integer(x[2])*as.integer(x[3])`)
-2;rechnen;Was ist das Ergebnis von (`sample(2:9,1)` + `sample(2:9,1)`) ⋅ `sample(2:9,1)`?;`(as.integer(x[1]+as.integer(x[2]))*as.integer(x[3])` (= `as.integer(x[1])+as.integer(x[2])` ⋅ `as.integer(x[3])`)
+3;primzahl;Ist `rnd(c(2,3,5,7,11,13,17,19,23,29,31))` eine Primzahl?;Ja, denn `x[1]` ist nur durch 1 und durch sich selbst teilbar.
+3;primzahl;Ist `rnd(setdiff(1:33,c(2,3,5,7,11,13,17,19,23,29,31)))` eine Primzahl?;"Nein, denn `x[1]` ist nicht nur durch 1 und durch sich selbst teilbar, sondern auch durch `a<-as.integer(x[1]);b<-seq.int(2,a-1,1);paste(b[a%%b==0],collapse=', ')`."
+4;rechnen;Was ist die Wurzel aus `rnd(9,16,25,36,49,64,81,100)`?;`sqrt(as.numeric(x[1]))` (weil `sqrt(as.numeric(x[1]))` ⋅ `sqrt(as.numeric(x[1]))` = `x[1]`)
+3;rechnen;Was ist das Doppelte von `rnd(25:499)`?;`2*as.integer(x[1])` (= 2 ⋅ `as.integer(x[1])`)
+3;rechnen;Was ist die Hälfte von `rnd(2*12:249)`?;`as.integer(x[1])/2` (= `as.integer(x[1])` : 2)
+2;rechnen;Was ist das Ergebnis von `rnd(2:9)` ⋅ `rnd(2:9)` + `rnd(2:9)`?;`as.integer(x[1])* as.integer(x[2])+as.integer(x[3])` (= `as.integer(x[1])*as.integer(x[2])`+`as.integer(x[3])`)
+2;rechnen;Was ist das Ergebnis von `sample(2:9,1)` ⋅ (`rnd(2:9)` + `rnd(2:9)`)?;`as.integer(x[1])*(as.integer(x[2]+as.integer(x[3]))` (= `as.integer(x[1])` ⋅ `as.integer(x[2])+as.integer(x[3])`)
+2;rechnen;Was ist das Ergebnis von `sample(2:9,1)` + `rnd(2:9)` ⋅ `rnd(2:9)`?;`as.integer(x[1]) + as.integer(x[2])*as.integer(x[3])` (= `as.integer(x[1])` + `as.integer(x[2])*as.integer(x[3])`)
+2;rechnen;Was ist das Ergebnis von (`rnd(2:9)` + `rnd(2:9)`) ⋅ `rnd(2:9)`?;`(as.integer(x[1]+as.integer(x[2]))*as.integer(x[3])` (= `as.integer(x[1])+as.integer(x[2])` ⋅ `as.integer(x[3])`)
 ;rechnen;Was ist die Quersumme von 234?;9 (= 2 + 3 + 4)
-;roemisch;"Welcher Buchstabe wird bei den Römischen Zahlen für den Wert `sample(c('5','Fünf'),1)` verwendet?";V
-;roemisch;"Welcher Buchstabe wird bei den Römischen Zahlen für den Wert `sample(c('10','Zehn'),1)` verwendet?";X
-;roemisch;"Welcher Buchstabe hat bei den Römischen Zahlen den Wert `sample(c('100','Hundert'),1)`?";C (franz.: cent = 100)
-;roemisch;"Welcher Buchstabe wird bei den Römischen Zahlen für den Wert `sample(c('1000','Tausend'),1)` verwendet?";M (franz.: mille = 1000)
+;roemisch;"Welcher Buchstabe wird bei den Römischen Zahlen für den Wert `rnd(c('5','Fünf'))` verwendet?";V
+;roemisch;"Welcher Buchstabe wird bei den Römischen Zahlen für den Wert `rnd(c('10','Zehn'))` verwendet?";X
+;roemisch;"Welcher Buchstabe hat bei den Römischen Zahlen den Wert `rnd(c('100','Hundert'))`?";C (franz.: cent = 100)
+;roemisch;"Welcher Buchstabe wird bei den Römischen Zahlen für den Wert `rnd(c('1000','Tausend'))` verwendet?";M (franz.: mille = 1000)
 ;roemisch;"Welche Zahl verbirgt sich hinter den Römischen Ziffern CL?";150
-;roemisch;"Mit welchen Großbuchstaben wird die Zahl `sample(c('12','zwölf'),1)` als Römische Zahl geschrieben?";XII
+;roemisch;"Mit welchen Großbuchstaben wird die Zahl `rnd(c('12','zwölf'))` als Römische Zahl geschrieben?";XII
 ;winkel;Wieviel Grad hat ein rechter Winkel?;90 Grad
 ;winkel;Wieviel Grad hat ein gestreckter Winkel?;180 Grad
 ;winkel;Wieviel Grad hat ein Vollwinkel?;360 Grad
 ;winkel;Wie groß ist die Summe der Winkel in einem Dreieck?;180 Grad
 ;winkel;Wie groß ist die Summe der Winkel in einem Viereck?;360 Grad
 ;winkel;Wie nennt man einen Winkel, der zwischen 0 und 90 Grad beträgt?;spitzer Winkel
-;winkel;"Wie `sample(c('nennt man einen','heißt ein'),1)` Winkel, der genau 90 Grad beträgt?";rechter Winkel
-;winkel;"Wie `sample(c('nennt man einen','heißt ein'),1)` Winkel, der genau 180 Grad beträgt?";gestreckter Winkel
-;winkel;"Wie `sample(c('nennt man einen','heißt ein'),1)` Winkel, der genau 360 Grad beträgt?";Vollwinkel
+;winkel;"Wie `rnd(c('nennt man einen','heißt ein'))` Winkel, der genau 90 Grad beträgt?";rechter Winkel
+;winkel;"Wie `rnd(c('nennt man einen','heißt ein'))` Winkel, der genau 180 Grad beträgt?";gestreckter Winkel
+;winkel;"Wie `rnd(c('nennt man einen','heißt ein'))` Winkel, der genau 360 Grad beträgt?";Vollwinkel
 ;zeit;Wie viele Tage hat ein Jahr, das kein Schaltjahr ist?;365 Tage
 ;zeit;Wie viele Tage hat ein Schaltjahr?;366 Tage
 ;zeit;Es ist 11:45 Uhr. Wie spät ist es in einer halben Stunde?;12:15 Uhr
