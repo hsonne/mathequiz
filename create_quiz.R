@@ -8,6 +8,8 @@ handle_placeholders <- function(data) {
     sample(do.call(c, list(...)), 1L)
   }
 
+  int <- as.integer
+
   de_formatted <- function(x, fmt) {
     gsub("\\.", ",", sprintf(fmt, x))
   }
