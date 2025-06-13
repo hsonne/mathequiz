@@ -40,8 +40,8 @@ n;thema;frage;antwort
 ;roemisch;"Welcher Buchstabe hat bei den Römischen Zahlen den Wert `rnd('100','Hundert')`?";C (französisch: cent = 100)
 ;roemisch;"Welcher Buchstabe hat bei den Römischen Zahlen den Wert `rnd('500','Fünfhundert')`?";D
 ;roemisch;"Welcher Buchstabe hat bei den Römischen Zahlen den Wert `rnd('1000','Tausend')`?";M (französisch: mille = 1000)
-10;roemisch;Welche Zahl verbirgt sich hinter den Römischen Ziffern `rnd(arab_to_rom(1:3999))`?;`rom_to_arab(x[1])`
-10;roemisch;Wie wird `rnd(1:3999)` als Römische Zahl geschrieben?;`arab_to_rom(int(x[1]))`
+10;roemisch;Welche Zahl verbirgt sich hinter den Römischen Ziffern `rnd(dec_to_rom(1:3999))`?;`rom_to_dec(x[1])`
+10;roemisch;Wie wird `rnd(1:3999)` als Römische Zahl geschrieben?;`dec_to_rom(int(x[1]))`
 ;winkel;Wieviel Grad hat ein rechter Winkel?;90 Grad
 ;winkel;Wieviel Grad hat ein gestreckter Winkel?;180 Grad
 ;winkel;Wieviel Grad hat ein Vollwinkel?;360 Grad

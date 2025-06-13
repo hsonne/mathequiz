@@ -12,7 +12,7 @@ rom_lookup <- c(
   M = 1000L
 )
 
-rom_to_arab <- function(r) {
+rom_to_dec <- function(r) {
   sapply(strsplit(r, ''), function(x) {
     values <- rom_lookup[x]
     if (length(i <- which(diff(values) > 0))) {
@@ -23,13 +23,13 @@ rom_to_arab <- function(r) {
   })
 }
 
-arab_to_rom <- function(a) {
+dec_to_rom <- function(a) {
   
   stopifnot(all(a < 4000L))
   a <- as.integer(a)
   
   if (length(a) > 1L) {
-    return(sapply(a, arab_to_rom))
+    return(sapply(a, dec_to_rom))
   }
   
   lookup <- matrix(
@@ -78,7 +78,7 @@ arab_to_rom <- function(a) {
   }))
 }
 
-stopifnot(identical(rom_to_arab(arab_to_rom(a <- 1:3999)), a))
+stopifnot(identical(rom_to_dec(dec_to_rom(a <- 1:3999)), a))
 
 handle_placeholders <- function(data) {
   
