@@ -4,6 +4,18 @@ file <- "data/jeder-gegen-jeden-fragen.txt"
 
 handle_placeholders <- function(data) {
   
+  rtoa <- function(r) {
+    lookup <- c(I = 1, V = 5, X = 10, L = 5, C = 100, D = 500, M = 1000)
+    sapply(strsplit(r, ''), function(x) {
+      values <- lookup[x]
+      if (length(i <- which(diff(values) > 0))) {
+        values[i] <- values[i+1] - values[i]
+        values <- values[-(i+1)]
+      }
+      sum(values)
+    })
+  }
+
   rnd <- function(...) {
     sample(do.call(c, list(...)), 1L)
   }
