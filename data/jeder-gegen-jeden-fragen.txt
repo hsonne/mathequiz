@@ -3,7 +3,7 @@ n;thema;frage;antwort
 ;allg;Wie lautet der mathematische Begriff für das Minusrechnen (-)?;Subtraktion
 ;allg;Wie lautet der mathematische Begriff für das Malnehmen (⋅)?;Multiplikation
 ;allg;Wie lautet der mathematische Begriff für das Teilen (:)?;Division
-3;allg;"`w<-c('Summand','Summand','Summe');  w[i<-rnd(1:3)]<-'?'; sprintf('<!--%d--> Addition: %s + %s = %s',i,w[1],w[2],w[3])`";"`i<-int(gsub('^.*<!--(\d+)-->.*$','\1',x[1])); c('Summand','Summand','Summe')[i]`"
+3;allg;"`w<-c('Summand','Summand','Summe');  w[i<-rnd(1:3)]<-'?'; sprintf('<!--%d--> Addition: %s + %s = %s',i,w[1],w[2],w[3])`";"`i<-int(gsub('^.*<!--(\\d+)-->.*$','\1',x[1])); c('Summand','Summand','Summe')[i]`"
 ;brueche;Wie heißt der Teil eines Bruches, der sich oberhalb des Bruchstriches befindet?;Zähler
 ;brueche;Wie heißt der Teil eines Bruches, der sich unterhalb des Bruchstriches befindet?;Nenner
 ;brueche;Was ist der Zähler eines Bruches?;der Teil oberhalb des Bruchstriches
