@@ -37,7 +37,7 @@ n;thema;frage;antwort
 ;roemisch;"Welcher Buchstabe wird bei den Römischen Zahlen für den Wert `rnd('10','Zehn')` verwendet?";X
 ;roemisch;"Welcher Buchstabe hat bei den Römischen Zahlen den Wert `rnd('100','Hundert')`?";C (franz.: cent = 100)
 ;roemisch;"Welcher Buchstabe wird bei den Römischen Zahlen für den Wert `rnd('1000','Tausend')` verwendet?";M (franz.: mille = 1000)
-;roemisch;"Welche Zahl verbirgt sich hinter den Römischen Ziffern CL?";150
+100;roemisch;"Welche Zahl verbirgt sich hinter den Römischen Ziffern `CL`?";`rtoa(x[1])`
 ;roemisch;"Mit welchen Großbuchstaben wird die Zahl `rnd('12','zwölf')` als Römische Zahl geschrieben?";XII
 ;winkel;Wieviel Grad hat ein rechter Winkel?;90 Grad
 ;winkel;Wieviel Grad hat ein gestreckter Winkel?;180 Grad
