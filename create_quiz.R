@@ -2,34 +2,92 @@
 
 file <- "data/jeder-gegen-jeden-fragen.txt"
 
+rom_lookup <- c(
+  I = 1L, 
+  V = 5L,
+  X = 10L,
+  L = 50L, 
+  C = 100L, 
+  D = 500L, 
+  M = 1000L
+)
+
+rom_to_arab <- function(r) {
+  sapply(strsplit(r, ''), function(x) {
+    values <- rom_lookup[x]
+    if (length(i <- which(diff(values) > 0))) {
+      values[i] <- values[i+1] - values[i]
+      values <- values[-(i+1)]
+    }
+    sum(values)
+  })
+}
+
+arab_to_rom <- function(a) {
+  
+  stopifnot(all(a < 4000L))
+  a <- as.integer(a)
+  
+  if (length(a) > 1L) {
+    return(sapply(a, arab_to_rom))
+  }
+  
+  lookup <- matrix(
+    data = c(
+      1, 0, 0, 0,
+      2, 0, 0, 0,
+      3, 0, 0, 0,
+      1, 1, 0, 0,
+      0, 1, 0, 0,
+      1, 1, 0, 1,
+      2, 1, 0, 1,
+      3, 1, 0, 1,
+      1, 0, 1, 0
+    ),
+    ncol = 4L, 
+    byrow = TRUE, 
+    dimnames = list(NULL, c("lower", "middle", "upper", "swap"))
+  )
+  
+  symbols_for_exponent <- function(e) {
+    symbols <- names(rom_lookup)
+    result <- symbols[seq.int(2*e + 1, min(2*e + 3L, length(symbols)))]
+    names(result) <- c("lower", "middle", "upper")[seq_along(result)]
+    result
+  }
+  
+  collapse <- function(x) paste(x, collapse = "")
+  
+  collapse(sapply(3:0, function(e) {
+    
+    potence <- 10^e
+    times <- a %/% potence
+    
+    if (times == 0L) {
+      return("")
+    }
+    
+    stimes <- if (lookup[times, "swap"]) {
+      lookup[times, 3:1]
+    } else {
+      lookup[times, 1:3]
+    }
+    
+    a <<- a - times * potence
+    collapse(rep(symbols_for_exponent(e)[names(stimes)], stimes))
+  }))
+}
+
+stopifnot(identical(rom_to_arab(arab_to_rom(a <- 1:3999)), a))
+
 handle_placeholders <- function(data) {
   
-  rtoa <- function(r) {
-    lookup <- c(
-      I = 1, 
-      V = 5,
-      X = 10,
-      L = 50, 
-      C = 100, 
-      D = 500, 
-      M = 1000
-    )
-    sapply(strsplit(r, ''), function(x) {
-      values <- lookup[x]
-      if (length(i <- which(diff(values) > 0))) {
-        values[i] <- values[i+1] - values[i]
-        values <- values[-(i+1)]
-      }
-      sum(values)
-    })
-  }
-
   rnd <- function(...) {
     sample(do.call(c, list(...)), 1L)
   }
-
+  
   int <- as.integer
-
+  
   de_formatted <- function(x, fmt) {
     gsub("\\.", ",", sprintf(fmt, x))
   }
@@ -37,7 +95,7 @@ handle_placeholders <- function(data) {
   de_to_num <- function(x) {
     as.numeric(gsub(",", ".", x))
   }
-
+  
   is_ticked <- function(x) {
     startsWith(x, "`")
   }
@@ -61,7 +119,7 @@ handle_placeholders <- function(data) {
   answer_tokens <- split_into_tokens(data$antwort)
   
   indices <- which(sapply(question_tokens, function(x) sum(is_ticked(x)) > 0L))
-
+  
   for (index in indices) {
     result <- eval_tokens(tokens = question_tokens[[index]])
     question_tokens[[index]] <- result$tokens
@@ -136,7 +194,7 @@ if (TRUE)
   data$n[is.na(data$n)] <- 1L
   i <- which(data$n > 1L)
   data <- rbind(data, data[rep(i, data$n[i] - 1L), ])
-
+  
   data <- handle_placeholders(data)
   data <- data[sample(nrow(data)), ]
   
@@ -152,7 +210,7 @@ if (TRUE)
     output_dir = dirname(output_file), 
     quiet = TRUE
   )
-
+  
   if (FALSE) {
     deploy_dir <- "~/mathequiz"
     #unlink(deploy_dir, recursive = TRUE)
