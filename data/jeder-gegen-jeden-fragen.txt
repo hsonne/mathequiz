@@ -4,9 +4,9 @@ n;thema;frage;antwort
 ;allg;Wie lautet der mathematische Begriff für das Malnehmen (⋅)?;Multiplikation
 ;allg;Wie lautet der mathematische Begriff für das Teilen (:)?;Division
 3;allg;"Wie heißt das fehlende Element der Addition?<br> `w<-c('Summand','Summand','Summe'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s + %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
-3;allg;"Wie heißt das fehlende Element der Subtraktion?<br> `w<-c('Minuend','Subtrahend','Differenz'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s - %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
-3;allg;"Wie heißt das fehlende Element der Multiplikation?<br>`w<-c('Faktor','Faktor','Produkt'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s ⋅ %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
-3;allg;"Wie heißt das fehlende Element der Division?<br> `w<-c('Dividend','Divisor','Quotient'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s : %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
+3;allg;"Wie heißt das fehlende Element der Subtraktion?<br><br> `w<-c('Minuend','Subtrahend','Differenz'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s - %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
+3;allg;"Wie heißt das fehlende Element der Multiplikation?<br><br>`w<-c('Faktor','Faktor','Produkt'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s ⋅ %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
+3;allg;"Wie heißt das fehlende Element der Division?<br><br> `w<-c('Dividend','Divisor','Quotient'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s : %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
 ;brueche;Wie heißt der Teil eines Bruches, der sich oberhalb des Bruchstriches befindet?;Zähler
 ;brueche;Wie heißt der Teil eines Bruches, der sich unterhalb des Bruchstriches befindet?;Nenner
 ;brueche;Was ist der Zähler eines Bruches?;der Teil oberhalb des Bruchstriches
