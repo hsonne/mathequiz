@@ -1,4 +1,45 @@
 #install.packages("xaringan")
+if (FALSE) {
+romans <- c("I", "V", "X", "L", "C", "D", "M", "-", "-")
+
+lmu <- sapply(2*(1:4) - 1, function(i) {
+  paste(romans[i:(i+2)], collapse = "")
+})
+
+a <- 999:1001
+
+n <- length(a)
+ma <- matrix(a, n, 4)
+md <- t(matrix(10^(3:0), 4, n))
+digits <- ma %/% md %% 10
+
+# l = lower, m = middle, u = upper
+pattern <- c(
+    "-",                # 0
+    "l",   "ll", "lll", # 1, 2, 3
+   "lm",    "m",  "ml", # 4, 5, 6
+  "mll", "mlll",  "lu"  # 7, 8, 9
+)
+
+chr <- function(s, i) substr(s, i ,i)
+lookups <- sapply(lmu, function(x) {
+  res <- sapply(pattern, function(p) {
+    p <- gsub("l", chr(x, 1), p)
+    p <- gsub("m", chr(x, 2), p)
+    p <- gsub("u", chr(x, 3), p)
+    p
+  })
+  stats::setNames(res, pattern)
+})
+
+lookups
+dimnames(lookups)
+digits
+p <- matrix(pattern[digits + 1], n)
+p
+
+
+}
 
 file <- "data/jeder-gegen-jeden-fragen.txt"
 
