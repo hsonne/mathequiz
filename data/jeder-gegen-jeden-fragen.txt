@@ -3,16 +3,16 @@ n;thema;frage;antwort
 ;allg;Wie lautet der mathematische Begriff für das Minusrechnen (-)?;Subtraktion
 ;allg;Wie lautet der mathematische Begriff für das Malnehmen (⋅)?;Multiplikation
 ;allg;Wie lautet der mathematische Begriff für das Teilen (:)?;Division
-3;allg;"Addition: Wofür steht das Fragezeichen?<br><br>`w<-c('Summand','Summand','Summe'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s + %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
-3;allg;"Subtraktion: Wofür steht das Fragezeichen?<br><br>`w<-c('Minuend','Subtrahend','Differenz'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s - %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
-3;allg;"Multiplikation: Wofür steht das Fragezeichen?<br><br>`w<-c('Faktor','Faktor','Produkt'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s ⋅ %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
-3;allg;"Division: Wofür steht das Fragezeichen?<br><br>`w<-c('Dividend','Divisor','Quotient'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s : %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
+2;allg;"Addition: Wofür steht das Fragezeichen?<br><br>`w<-c('Summand','Summand','Summe'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s + %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
+2;allg;"Subtraktion: Wofür steht das Fragezeichen?<br><br>`w<-c('Minuend','Subtrahend','Differenz'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s - %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
+2;allg;"Multiplikation: Wofür steht das Fragezeichen?<br><br>`w<-c('Faktor','Faktor','Produkt'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s ⋅ %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
+2;allg;"Division: Wofür steht das Fragezeichen?<br><br>`w<-c('Dividend','Divisor','Quotient'); i<-rnd(1:3); Sys.setenv(w=paste(w,collapse=','),i=i); w[i]<-'?'; sprintf('%s : %s = %s', w[1],w[2],w[3])`"; "`w<-strsplit(Sys.getenv('w'),',')[[1]]; w[int(Sys.getenv('i'))]`"
 ;brueche;Wie heißt der Teil eines Bruches, der sich oberhalb des Bruchstriches befindet?;Zähler
 ;brueche;Wie heißt der Teil eines Bruches, der sich unterhalb des Bruchstriches befindet?;Nenner
 ;brueche;Was ist der Zähler eines Bruches?;der Teil oberhalb des Bruchstriches
 ;brueche;Was ist der Nenner eines Bruches?;der Teil unterhalb des Bruchstriches
 ;alltag;Welche Länge hat eine Stadionrunde im Olympiastadion?;400 m
-5;alltag;"Ich bezahle `de_formatted(rnd(50:450)/100,'%0.2f')` EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?";"`de_formatted(5-de_to_num(x[1]),'%0.2f')` EUR (= 5,00 EUR - `x[1]` EUR)"
+3;alltag;"Ich bezahle `de_formatted(rnd(50:450)/100,'%0.2f')` EUR mit einem 5 EUR-Schein. Wieviel bekomme ich zurück?";"`de_formatted(5-de_to_num(x[1]),'%0.2f')` EUR (= 5,00 EUR - `x[1]` EUR)"
 ;alltag;Welches DIN-Format hat ein DIN-A5-Blatt, das ich in der Mitte falte?;DIN A6
 ;alltag;Welches DIN-Format hat ein DIN A4-Blatt, das ich in der Mitte falte?;DIN A5
 ;einheit;Wieviel Gramm hat ein Kilogramm?;1000 g (= 1 kg)
@@ -23,16 +23,16 @@ n;thema;frage;antwort
 ;geometrie;Der Radius eines Kreises beträgt 1 Meter. Wie groß ist der Durchmesser des Kreises?;2 Meter, das Doppelte des Radius
 ;geometrie;Welche geometrische Form hat ein Stoppschild?;Achteck
 ;primzahl;Ist 1 eine Primzahl?;Nein. Eine Primzahl hat genau zwei (verschiedene) Teiler, nämlich 1 und sich selbst. Die Zahl 1 hat nur einen Teiler, nämlich nur 1 bzw. nur sich selbst.
-3;primzahl;Ist `rnd(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47)` eine Primzahl?;Ja, denn `x[1]` ist durch genau zwei Zahlen teilbar: durch 1 und durch sich selbst.
-3;primzahl;Ist `rnd(setdiff(2:50, c(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47)))` eine Primzahl?;"Nein, denn `x[1]` ist nicht nur durch 1 und durch sich selbst teilbar, sondern auch durch `a<-int(x[1]); b<-2:(a-1); r<-b[a%%b==0]; n<-length(r); coll<-function(x,s) paste(x, collapse=s); if (n==1) r else if (n==2) coll(r, ' und ') else paste(coll(r[-n], ', '), 'und', r[n])`."
-4;rechnen;Was ist die Wurzel aus `rnd(9,16,25,36,49,64,81,100)`?;`sqrt(as.numeric(x[1]))`, denn `sqrt(as.numeric(x[1]))` ⋅ `sqrt(as.numeric(x[1]))` = `x[1]`.
-3;rechnen;Was ist das Doppelte von `rnd(25:499)`?;`2*int(x[1])` (= 2 ⋅ `int(x[1])`)
-3;rechnen;Was ist die Hälfte von `rnd(2*12:249)`?;`int(x[1])/2` (= `int(x[1])` : 2)
+2;primzahl;Ist `rnd(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47)` eine Primzahl?;Ja, denn `x[1]` ist durch genau zwei Zahlen teilbar: durch 1 und durch sich selbst.
+2;primzahl;Ist `rnd(setdiff(2:50, c(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47)))` eine Primzahl?;"Nein, denn `x[1]` ist nicht nur durch 1 und durch sich selbst teilbar, sondern auch durch `a<-int(x[1]); b<-2:(a-1); r<-b[a%%b==0]; n<-length(r); coll<-function(x,s) paste(x, collapse=s); if (n==1) r else if (n==2) coll(r, ' und ') else paste(coll(r[-n], ', '), 'und', r[n])`."
+2;rechnen;Was ist die Wurzel aus `rnd(9,16,25,36,49,64,81,100)`?;`sqrt(as.numeric(x[1]))`, denn `sqrt(as.numeric(x[1]))` ⋅ `sqrt(as.numeric(x[1]))` = `x[1]`.
+2;rechnen;Was ist das Doppelte von `rnd(25:499)`?;`2*int(x[1])` (= 2 ⋅ `int(x[1])`)
+2;rechnen;Was ist die Hälfte von `rnd(2*12:249)`?;`int(x[1])/2` (= `int(x[1])` : 2)
 2;rechnen;Was ist das Ergebnis von `rnd(2:9)` ⋅ `rnd(2:9)` + `rnd(2:9)`?;`int(x[1])*int(x[2])+int(x[3])` (= `int(x[1])*int(x[2])` + `int(x[3])`)
 2;rechnen;Was ist das Ergebnis von `rnd(2:9)` ⋅ (`rnd(2:9)` + `rnd(2:9)`)?;`int(x[1])*(int(x[2])+int(x[3]))` (= `int(x[1])` ⋅ `int(x[2])+int(x[3])`)
 2;rechnen;Was ist das Ergebnis von `rnd(2:9)` + `rnd(2:9)` ⋅ `rnd(2:9)`?;`int(x[1]) + int(x[2])*int(x[3])` (= `int(x[1])` + `int(x[2])*int(x[3])`)
 2;rechnen;Was ist das Ergebnis von (`rnd(2:9)` + `rnd(2:9)`) ⋅ `rnd(2:9)`?;`(int(x[1])+int(x[2]))*int(x[3])` (= `int(x[1])+int(x[2])` ⋅ `int(x[3])`)
-4;rechnen;Was ist die Quersumme von `rnd(100:999)`?;"`s<-strsplit(x[1], '')[[1]]; sprintf('%d (= %s)', sum(int(s)), paste(s, collapse=' + '))`"
+2;rechnen;Was ist die Quersumme von `rnd(100:999)`?;"`s<-strsplit(x[1], '')[[1]]; sprintf('%d (= %s)', sum(int(s)), paste(s, collapse=' + '))`"
 ;roemisch;"Welcher Buchstabe steht bei den Römischen Zahlen für den Wert `rnd('1','Eins')`?";I
 ;roemisch;"Welcher Buchstabe steht bei den Römischen Zahlen für den Wert `rnd('5','Fünf')`?";V
 ;roemisch;"Welcher Buchstabe steht bei den Römischen Zahlen für den Wert `rnd('10','Zehn')`?";X
@@ -40,8 +40,8 @@ n;thema;frage;antwort
 ;roemisch;"Welcher Buchstabe steht bei den Römischen Zahlen für den Wert `rnd('100','Hundert')`?";C (französisch: cent = 100)
 ;roemisch;"Welcher Buchstabe steht bei den Römischen Zahlen für den Wert `rnd('500','Fünfhundert')`?";D
 ;roemisch;"Welcher Buchstabe steht bei den Römischen Zahlen für den Wert `rnd('1000','Tausend')`?";M (französisch: mille = 1000)
-10;roemisch;Welche Dezimalzahl entspricht der Römischen Zahl `rnd(dec_to_rom(1:3999))`?;`rom_to_dec(x[1])`
-10;roemisch;Wie wird `rnd(1:3999)` als Römische Zahl geschrieben?;`dec_to_rom(int(x[1]))`
+3;roemisch;Welche Dezimalzahl entspricht der Römischen Zahl `rnd(dec_to_rom(1:3999))`?;`rom_to_dec(x[1])`
+3;roemisch;Wie wird `rnd(1:3999)` als Römische Zahl geschrieben?;`dec_to_rom(int(x[1]))`
 ;winkel;Wieviel Grad hat ein rechter Winkel?;90 Grad
 ;winkel;Wieviel Grad hat ein gestreckter Winkel?;180 Grad
 ;winkel;Wieviel Grad hat ein Vollwinkel?;360 Grad
