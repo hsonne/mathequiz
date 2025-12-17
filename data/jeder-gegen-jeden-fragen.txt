@@ -33,6 +33,7 @@ n;thema;frage;antwort
 2;rechnen;Was ist das Ergebnis von `rnd(2:9)` + `rnd(2:9)` ⋅ `rnd(2:9)`?;`int(x[1]) + int(x[2])*int(x[3])` (= `int(x[1])` + `int(x[2])*int(x[3])`)
 2;rechnen;Was ist das Ergebnis von (`rnd(2:9)` + `rnd(2:9)`) ⋅ `rnd(2:9)`?;`(int(x[1])+int(x[2]))*int(x[3])` (= `int(x[1])+int(x[2])` ⋅ `int(x[3])`)
 4;rechnen;Was ist die Quersumme von `rnd(100:999)`?;"`s<-strsplit(x[1], '')[[1]]; sprintf('%d (= %s)', sum(int(s)), paste(s, collapse=' + '))`"
+#4;rechnen;Kleines Einmaleins:<br>`rnd(2:9)` ⋅ `rnd(2:9)` = ?;`int(x[1])*int(x[2])`
 ;roemisch;"Welcher Buchstabe steht bei den Römischen Zahlen für den Wert `rnd('1','Eins')`?";I
 ;roemisch;"Welcher Buchstabe steht bei den Römischen Zahlen für den Wert `rnd('5','Fünf')`?";V
 ;roemisch;"Welcher Buchstabe steht bei den Römischen Zahlen für den Wert `rnd('10','Zehn')`?";X
