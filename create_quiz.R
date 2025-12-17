@@ -1,6 +1,11 @@
 #install.packages("xaringan")
 
 file <- "data/jeder-gegen-jeden-fragen.txt"
+DEPLOY_DIR <- "~/mathequiz"
+
+
+file <- "data/questions_praeteritum.txt"
+DEPLOY_DIR <- "~/praeteritum-quiz"
 
 rom_to_dec <- function(r) {
   lookup <- c(I = 1L, V = 5L, X = 10L, L = 50L, C = 100L, D = 500L, M = 1000L)
@@ -149,17 +154,16 @@ if (TRUE)
   )
   
   if (FALSE) {
-    deploy_dir <- "~/mathequiz"
-    #unlink(deploy_dir, recursive = TRUE)
-    dir.create(deploy_dir, recursive = TRUE, showWarnings = FALSE)
-    dir(deploy_dir, recursive = TRUE) 
+    #unlink(DEPLOY_DIR, recursive = TRUE)
+    dir.create(DEPLOY_DIR, recursive = TRUE, showWarnings = FALSE)
+    dir(DEPLOY_DIR, recursive = TRUE) 
     from_rel <- dir(output_dir, recursive = TRUE)
     from_rel <- grep("\\.rmd$", from_rel, value = TRUE, invert = TRUE)
-    to <- file.path(deploy_dir, from_rel)
+    to <- file.path(DEPLOY_DIR, from_rel)
     kwb.utils::createDirectories(unique(dirname(to)), dbg = FALSE) 
     file.copy(file.path(output_dir, from_rel), to, overwrite = TRUE)
   }
   
   # Checkout gh-pages, then 
-  #file.copy(dir("~/mathequiz", recursive = TRUE, full.names = TRUE), ".", overwrite = TRUE)
+  #file.copy(dir(DEPLOY_DIR, recursive = TRUE, full.names = TRUE), ".", overwrite = TRUE)
 }
